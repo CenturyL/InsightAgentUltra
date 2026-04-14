@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from local_agent_api.runtime.skill_loader import build_skill_catalog, match_skill_candidates
-from local_agent_api.core.config import settings
+from backend.runtime.skill_loader import build_skill_catalog, match_skill_candidates
+from backend.core.config import settings
 
 
 def test_build_skill_catalog_reads_claude_skill_packages(tmp_path, monkeypatch):

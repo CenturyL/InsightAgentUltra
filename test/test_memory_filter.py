@@ -1,5 +1,5 @@
-from local_agent_api.core.memory import normalize_memory_fact, rerank_memory_facts
-from local_agent_api.services.agent_service import _extract_explicit_user_facts
+from backend.core.memory import normalize_memory_fact, rerank_memory_facts
+from backend.services.agent_service import _extract_explicit_user_facts
 
 
 def test_normalize_memory_fact_accepts_structured_user_fact():

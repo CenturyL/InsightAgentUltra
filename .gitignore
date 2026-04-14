@@ -27,25 +27,25 @@ htmlcov/
 .env
 .env.*
 !.env.example
-local_agent_api/.env
-local_agent_api/.env.*
-!local_agent_api/.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
 
 # === Vector stores & local data artifacts ===
-local_agent_api/data/chroma_db/
-local_agent_api/data/parent_store/
-local_agent_api/data/temp/
-local_agent_api/scripts/local_agent_api/
+backend/data/chroma_db/
+backend/data/parent_store/
+backend/data/temp/
+backend/scripts/backend/
 
 # === Eval datasets (only track .example files) ===
-local_agent_api/data/eval/*.jsonl
-!local_agent_api/data/eval/*.example.jsonl
+backend/data/eval/*.jsonl
+!backend/data/eval/*.example.jsonl
 
 # === Frontend ===
-local_agent_frontend/node_modules/
-local_agent_frontend/dist/
-local_agent_frontend/.vite/
-local_agent_frontend/tsconfig.tsbuildinfo
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/tsconfig.tsbuildinfo
 
 # === Logs & DB files ===
 *.log

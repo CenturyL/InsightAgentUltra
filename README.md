@@ -1,7 +1,7 @@
-# InsightAgentMax
+# InsightAgentUltra
 
 一个面向真实任务执行的通用 Agent Runtime 平台。  
-项目不是“单轮 RAG 问答 Demo”，而是围绕 **会话管理、上下文压缩、统一路由、Skill、MCP、RAG、长期记忆、PAE（Plan-and-Execute）** 组织起来的一套完整运行时。
+项目不是"单轮 RAG 问答 Demo"，而是围绕 **会话管理、上下文压缩、统一路由、Skill、MCP、RAG、长期记忆、PAE（Plan-and-Execute）** 组织起来的一套完整运行时。
 
 ## 1. 项目定位
 
@@ -80,27 +80,28 @@
 
 ```text
 .
-├── local_agent_api/                  # 后端
-│   ├── agents/                       # planner / executor / reflection / synthesizer
-│   ├── api/                          # FastAPI 路由与请求/响应 schema
-│   ├── core/                         # 配置、模型、memory、middleware 等核心能力
-│   ├── retrieval/                    # 文档入库、切块、检索、rerank
-│   ├── runtime/                      # runtime 路由、上下文、skill、MCP、workflow
-│   ├── services/                     # agent service、session service、runtime assets service
-│   ├── data/                         # Chroma、parent store、临时文件、测试文档
-│   ├── requirements.txt              # Python 依赖
-│   └── main.py                       # FastAPI 入口（挂载 /api/v3）
-├── local_agent_frontend/             # React 前端
-│   ├── src/App.tsx                   # 主界面与核心前端状态
+├── backend/                              # 后端
+│   ├── agents/                           # planner / executor / reflection / synthesizer
+│   ├── api/                              # FastAPI 路由与请求/响应 schema
+│   ├── core/                             # 配置、模型、memory、middleware 等核心能力
+│   ├── retrieval/                        # 文档入库、切块、检索、rerank
+│   ├── runtime/                          # runtime 路由、上下文、skill、MCP、workflow
+│   ├── services/                         # agent service、session service、runtime assets service
+│   ├── data/                             # Chroma、parent store、临时文件、测试文档
+│   ├── .claude/skills/                   # 导入的 Claude 风格 Skill 包
+│   ├── .mcp.json                         # MCP server 配置
+│   ├── requirements.txt                  # Python 依赖
+│   └── main.py                           # FastAPI 入口（挂载 /api/v3）
+├── frontend/                             # React 前端
+│   ├── src/App.tsx                       # 主界面与核心前端状态
 │   ├── package.json
 │   └── index.html
-├── skills/                           # 项目内 Skill
-├── .claude/skills/                   # 导入的 Claude 风格 Skill 包
-├── persona/                          # AGENTS.md / SOUL.md
-├── memory/                           # MEMORY.md
-├── prompts/                          # 手工 Prompt 资产
-├── mcp/                              # MCP 相关说明文件
-├── test/                             # pytest 测试
+├── skills/                               # 项目内 Skill
+├── persona/                              # AGENTS.md / SOUL.md
+├── memory/                               # MEMORY.md
+├── prompts/                              # 手工 Prompt 资产
+├── mcp/                                  # MCP 相关说明文件
+├── test/                                 # pytest 测试
 └── README.md
 ```
 
@@ -150,13 +151,13 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 后端从：
 
-- `local_agent_api/.env`
+- `backend/.env`
 
 读取配置。  
 仓库中不包含真实密钥，请先复制模板：
 
 ```bash
-cp local_agent_api/.env.example local_agent_api/.env
+cp backend/.env.example backend/.env
 ```
 
 最小可启动配置建议至少填写：
@@ -190,8 +191,8 @@ cp local_agent_api/.env.example local_agent_api/.env
 ### 7.1 克隆仓库
 
 ```bash
-git clone git@github.com:CenturyL/InsightAgentMax.git
-cd InsightAgentMax
+git clone git@github.com:CenturyL/InsightAgentUltra.git
+cd InsightAgentUltra
 ```
 
 ### 7.2 后端环境
@@ -201,7 +202,7 @@ cd InsightAgentMax
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r local_agent_api/requirements.txt
+pip install -r backend/requirements.txt
 ```
 
 或者使用 conda：
@@ -209,13 +210,13 @@ pip install -r local_agent_api/requirements.txt
 ```bash
 conda create -n insightagent python=3.11 -y
 conda activate insightagent
-pip install -r local_agent_api/requirements.txt
+pip install -r backend/requirements.txt
 ```
 
 ### 7.3 前端环境
 
 ```bash
-cd local_agent_frontend
+cd frontend
 npm install
 cd ..
 ```
@@ -225,7 +226,7 @@ cd ..
 请在**项目根目录**执行：
 
 ```bash
-uvicorn local_agent_api.main:app --reload
+uvicorn backend.main:app --reload
 ```
 
 默认地址：
@@ -236,7 +237,7 @@ uvicorn local_agent_api.main:app --reload
 ### 7.5 启动前端
 
 ```bash
-cd local_agent_frontend
+cd frontend
 npm run dev
 ```
 
@@ -269,7 +270,7 @@ npm run dev
 
 ### 8.3 Session
 
-输入一个 `UserID` 后点击“确定”，应看到：
+输入一个 `UserID` 后点击"确定"，应看到：
 
 - 历史 Session 列表
 - 自动创建一个新会话
@@ -286,9 +287,9 @@ npm run dev
 
 ## 9. MCP 配置
 
-当前项目根目录下使用：
+当前后端目录下使用：
 
-- `.mcp.json`
+- `backend/.mcp.json`
 
 来声明 MCP server。
 
@@ -309,7 +310,7 @@ npm run dev
 当前支持两类 Skill 来源：
 
 - `skills/`
-- `.claude/skills/`
+- `backend/.claude/skills/`
 
 Skill 采用 Claude-compatible 格式：
 
@@ -324,7 +325,7 @@ Skill 采用 Claude-compatible 格式：
 3. 命中后再加载 skill 正文
 4. skill 正文进入 runtime prompt
 
-也就是说，当前 Skill 是“结构化策略文件”，不是“自动执行插件”。
+也就是说，当前 Skill 是"结构化策略文件"，不是"自动执行插件"。
 
 ## 11. 常用接口
 
@@ -359,13 +360,13 @@ pytest -q
 如果只想先检查后端模块是否能 import：
 
 ```bash
-python -m py_compile local_agent_api/main.py
+python -m py_compile backend/main.py
 ```
 
 前端构建检查：
 
 ```bash
-cd local_agent_frontend
+cd frontend
 npm run build
 ```
 
@@ -373,17 +374,17 @@ npm run build
 
 - MCP 当前只完整接入了 tools 子集
 - Skill 当前主要还是 prompt/runtime 策略层，未实现 skill scripts 自动执行
-- 扫描版 PDF 目前没有完整做“逐页图片 OCR”
+- 扫描版 PDF 目前没有完整做"逐页图片 OCR"
 - 当前默认前端模型选择是 `deepseek_chat`
 
 ## 14. 推荐阅读顺序
 
 如果你想从代码角度快速理解系统，建议按这个顺序看：
 
-1. `local_agent_api/services/agent_service.py`
-2. `local_agent_api/core/middleware.py`
-3. `local_agent_api/runtime/engine.py`
-4. `local_agent_api/runtime/context_builder.py`
-5. `local_agent_api/runtime/tool_registry.py`
-6. `local_agent_api/retrieval/pipeline.py`
-7. `local_agent_api/core/memory.py`
+1. `backend/services/agent_service.py`
+2. `backend/core/middleware.py`
+3. `backend/runtime/engine.py`
+4. `backend/runtime/context_builder.py`
+5. `backend/runtime/tool_registry.py`
+6. `backend/retrieval/pipeline.py`
+7. `backend/core/memory.py`

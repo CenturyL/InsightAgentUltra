@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**InsightAgentMax** — a general-purpose Agent Runtime platform. Not a single-turn RAG demo; it is a full runtime for real-world task execution combining: ReAct main loop + Plan-and-Execute (PAE) + Session management + Long-term memory + MCP + Skills + RAG.
+**InsightAgentUltra (V4)** — a general-purpose Agent Runtime platform. Not a single-turn RAG demo; it is a full runtime for real-world task execution combining: ReAct main loop + Plan-and-Execute (PAE) + Session management + Long-term memory + MCP + Skills + RAG.
 
 ## Deployment
 
@@ -40,7 +40,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - **Ubuntu (su5090dd)**: RTX 5090D, miniconda3, conda env `insightagent` (Python 3.11), PostgreSQL (pgdata at ~/pgdata)
 - **ECS (ecs)**: 阿里云轻量，nginx, EasyTier, 仅做前端托管和反向代理
-- **后端进程**: `conda run -n insightagent uvicorn local_agent_api.main:app --host 0.0.0.0 --port <port>`
+- **后端进程**: `conda run -n insightagent uvicorn backend.main:app --host 0.0.0.0 --port <port>`
 
 ## Development Commands
 
@@ -49,18 +49,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 # Setup
 python -m venv .venv && source .venv/bin/activate
-pip install -r local_agent_api/requirements.txt
-cp local_agent_api/.env.example local_agent_api/.env  # then fill in secrets
+pip install -r backend/requirements.txt
+cp backend/.env.example backend/.env  # then fill in secrets
 
 # Run (from project root)
-uvicorn local_agent_api.main:app --reload
+uvicorn backend.main:app --reload
 # API: http://127.0.0.1:8000
 ```
 
 ### Frontend
 
 ```bash
-cd local_agent_frontend
+cd frontend
 npm install
 npm run dev      # http://127.0.0.1:5173
 npm run build    # production build
@@ -75,7 +75,7 @@ pytest test/test_agent_routing.py -q  # single test file
 
 ### Required environment variables
 
-`DEEPSEEK_API_KEY` and `POSTGRES_URL` (with pgvector extension) are required. All config is validated via Pydantic in `local_agent_api/core/config.py`.
+`DEEPSEEK_API_KEY` and `POSTGRES_URL` (with pgvector extension) are required. All config is validated via Pydantic in `backend/core/config.py`.
 
 ## Architecture
 
@@ -95,12 +95,12 @@ Frontend → POST /api/v3/chat/agent
 
 | Layer | Directory | Purpose |
 |-------|-----------|---------|
-| API & Schemas | `api/` | FastAPI routes, Pydantic request/response models |
-| Core | `core/` | Config, LLM factories, embeddings, memory, middleware |
-| Runtime | `runtime/` | Routing engine, context builder, skill loader, MCP client, tool registry, LangGraph workflow |
-| Agents | `agents/` | PAE internals: planner, executor, reflection, orchestrator |
-| Retrieval | `retrieval/` | RAG pipeline: chunking, embedding, reranking, citations |
-| Services | `services/` | Agent service (main loop), session service, asset service |
+| API & Schemas | `backend/api/` | FastAPI routes, Pydantic request/response models |
+| Core | `backend/core/` | Config, LLM factories, embeddings, memory, middleware |
+| Runtime | `backend/runtime/` | Routing engine, context builder, skill loader, MCP client, tool registry, LangGraph workflow |
+| Agents | `backend/agents/` | PAE internals: planner, executor, reflection, orchestrator |
+| Retrieval | `backend/retrieval/` | RAG pipeline: chunking, embedding, reranking, citations |
+| Services | `backend/services/` | Agent service (main loop), session service, asset service |
 | Skills | `skills/` | Strategy files injected into system prompt (YAML frontmatter + Markdown) |
 | Persona | `persona/` | `AGENTS.md` (system role), `SOUL.md` (tone/style) — editable at runtime |
 | Memory | `memory/` | `MEMORY.md` workspace-level long-term memory template |
@@ -127,7 +127,7 @@ Frontend → POST /api/v3/chat/agent
 
 Skills in `skills/` are YAML-frontmatter + Markdown files (same format as Claude SKILL.md). They are **not** executable plugins — they are structured strategy/guidance text injected into the system prompt when the runtime router activates them. Metadata is loaded first; full text only when a skill is matched.
 
-The project also keeps a copy of its MCP configs and SKILL files under `.claude/` (project root), intentionally mirroring Claude-compatible formats. **This directory is shared with Claude Code's own configuration** (settings, hooks, etc.), which causes an unavoidable naming conflict. When reading files under `.claude/`, distinguish between project runtime assets (MCP/SKILL files used by the agent) and Claude Code's own config — do not conflate or overwrite either side.
+The project also keeps MCP configs (`backend/.mcp.json`) and SKILL files (`backend/.claude/skills/`) using Claude-compatible formats. These are **project runtime assets**, not Claude Code configuration. The root `.claude/` directory belongs to Claude Code itself — do not conflate the two.
 
 ### Streaming protocol
 
@@ -135,7 +135,7 @@ All agent responses stream as **NDJSON** (one JSON object per line). The fronten
 
 ### MCP integration
 
-`.mcp.json` at project root defines MCP servers. Config can be updated at runtime via `/api/v3/runtime/mcp/config` (PUT) and reloaded via `/api/v3/runtime/mcp/reload` (POST) without restarting the server.
+`backend/.mcp.json` defines MCP servers. Config can be updated at runtime via `/api/v3/runtime/mcp/config` (PUT) and reloaded via `/api/v3/runtime/mcp/reload` (POST) without restarting the server.
 
 ### Database
 

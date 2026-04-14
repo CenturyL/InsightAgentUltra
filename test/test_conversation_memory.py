@@ -3,7 +3,7 @@ from __future__ import annotations
 import asyncio
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
-from local_agent_api.runtime import conversation_memory as cm
+from backend.runtime import conversation_memory as cm
 
 
 def _build_messages(turns: int) -> list:

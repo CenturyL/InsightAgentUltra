@@ -3,12 +3,12 @@ import pytest
 
 pytestmark = pytest.mark.skip(reason="遗留手工联调脚本，依赖已删除的 rag_service，不纳入自动化 pytest。")
 
-from local_agent_api.retrieval.pipeline import process_and_store_document, search_knowledge
+from backend.retrieval.pipeline import process_and_store_document, search_knowledge
 
 def test_rag_ingest():
     # 1. 创建一份测试文档
-    test_file = "../local_agent_api/data/company_rules.md"
-    os.makedirs("../local_agent_api/data", exist_ok=True)
+    test_file = "../backend/data/company_rules.md"
+    os.makedirs("../backend/data", exist_ok=True)
     with open(test_file, "w", encoding="utf-8") as f:
         f.write("""
 # 凌越科技内部员工守则

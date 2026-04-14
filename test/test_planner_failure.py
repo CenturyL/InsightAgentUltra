@@ -3,8 +3,8 @@ from types import SimpleNamespace
 
 from langchain_core.messages import HumanMessage
 
-from local_agent_api.agents.planner import planner_node
-from local_agent_api.runtime.workflow import stream_plan_and_execute
+from backend.agents.planner import planner_node
+from backend.runtime.workflow import stream_plan_and_execute
 
 
 class _FakeModel:
@@ -20,7 +20,7 @@ class _FakeModel:
 def test_planner_node_marks_planning_failed_after_two_invalid_attempts(monkeypatch):
     async def _run():
         monkeypatch.setattr(
-            "local_agent_api.agents.planner.get_model_by_choice",
+            "backend.agents.planner.get_model_by_choice",
             lambda _choice: _FakeModel(["not json", '{"bad":"shape"}']),
         )
         state = {
@@ -65,9 +65,9 @@ def test_stream_plan_and_execute_returns_planning_failed_without_executor(monkey
                 "step_results": [],
             }
 
-        monkeypatch.setattr("local_agent_api.runtime.workflow.build_runtime_context", _fake_build_runtime_context)
-        monkeypatch.setattr("local_agent_api.runtime.workflow.get_tool_names", lambda: [])
-        monkeypatch.setattr("local_agent_api.runtime.workflow.planner_node", _fake_planner_node)
+        monkeypatch.setattr("backend.runtime.workflow.build_runtime_context", _fake_build_runtime_context)
+        monkeypatch.setattr("backend.runtime.workflow.get_tool_names", lambda: [])
+        monkeypatch.setattr("backend.runtime.workflow.planner_node", _fake_planner_node)
 
         lines: list[str] = []
         final = None

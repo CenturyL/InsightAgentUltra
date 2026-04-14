@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import json
 
-from local_agent_api.core.config import settings
-from local_agent_api.runtime.mcp_config import expand_env_vars, load_mcp_config
+from backend.core.config import settings
+from backend.runtime.mcp_config import expand_env_vars, load_mcp_config
 
 
 def test_expand_env_vars_with_default(monkeypatch):
