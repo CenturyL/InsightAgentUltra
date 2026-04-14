@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "/Users/century/.nvm/versions/node/v24.12.0/bin/npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/century/code/agent/langchainPro"
+      ]
+    },
+    "fetch": {
+      "command": "/Users/century/.local/bin/uvx",
+      "args": [
+        "mcp-server-fetch"
+      ]
+    }
+  }
+  
+}

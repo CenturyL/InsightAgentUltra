@@ -1,0 +1,62 @@
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# === Environment & Secrets ===
+.env
+.env.*
+!.env.example
+local_agent_api/.env
+local_agent_api/.env.*
+!local_agent_api/.env.example
+
+# === Vector stores & local data artifacts ===
+local_agent_api/data/chroma_db/
+local_agent_api/data/parent_store/
+local_agent_api/data/temp/
+local_agent_api/scripts/local_agent_api/
+
+# === Eval datasets (only track .example files) ===
+local_agent_api/data/eval/*.jsonl
+!local_agent_api/data/eval/*.example.jsonl
+
+# === Frontend ===
+local_agent_frontend/node_modules/
+local_agent_frontend/dist/
+local_agent_frontend/.vite/
+local_agent_frontend/tsconfig.tsbuildinfo
+
+# === Logs & DB files ===
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# === Private / non-project ===
+学习文档/
+test1.py
+
+# === Claude Code config (not project runtime assets) ===
+# .claude/settings.local.json is Claude Code's own config, don't track
+.claude/settings.local.json

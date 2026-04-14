@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="SiteName" content="武汉东湖新技术开发区政务网" />
+<meta name="SiteDomain" content="www.wehdz.gov.cn" />
+<meta name="SiteIDCode" content="4201000013" />
+
+<meta name="ColumnName" content="通知公告">
+<meta name="ColumnType" content="通知公告">
+<meta name="ColumnDescription" content="主要用于武汉东湖新技术开发区政务网通知公告等信息的发布">
+<meta name="ColumnKeywords" content="通知公告">
+
+<link rel="stylesheet" href="../../../../material/2022/css/style.css">
+<link rel="stylesheet" href="../../../../material/2022/css/swiper.min.css">
+<link rel="shortcut icon" href="../../../../material/2022/images/ico.png" />  
+<script src="../../../../material/2022/js/jquery-3.6.4.min.js"></script>
+<!-- 移动端头部导航 -->
+<script type="text/javascript" language="javascript" src="../../../../material/2022/js/mobileNav.js"></script>
+<script type="text/javascript" language="javascript" src="../../../../material/2022/js/link.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=3430" async="async" defer="defer"></script>
+<script>
+	$(document).ready(function () {
+		$("#tb_68628").addClass("active");
+	});
+</script>
+    <meta name="ColumnName" content="通知公告">
+    <meta name="ArticleTitle" content="关于转发《兑现支持文化和旅游产业高质量发展若干奖补政策的申报指南的通知》">
+    <meta name="PubDate" content="2026-01-30 09:11">
+    <meta name="ContentSource" content="武汉市文化和旅游局">
+    <meta name="ContentAuthor" content="">
+    <script src="../../../../material/2022/js/jquery_qrcode_min.js"></script>
+	<title> 通知公告</title>
+	<script>
+		function setTab(name,cursel,n){
+			for(i=1;i<=n;i++){
+			   var menu=document.getElementById(name+i);
+			   var con=document.getElementById("con_"+name+"_"+i);
+			   menu.className=i==cursel?"active":"";
+			   con.style.display=i==cursel?"block":"none";
+			}
+		}
+	</script>
+<script>
+    $(function () {
+       var file = 'https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202601/P020260130346643319592.pdf';
+       var files = file.split(':')[1]
+       console.log(files)
+       if(typeof files != "undefined" || files != null || files != ""){
+            var index= files.lastIndexOf(".");
+            var fileType = files.substr(index+1);
+            if(fileType.toLowerCase()=="pdf"){
+                var pdfIframe = '<iframe src="'+files+'" style="width:100%;height:600px;"></iframe>';
+                $("#zoomcon").prepend(pdfIframe);
+            }
+       }
+    })
+   
+</script>
+</head>
+<style>
+#title{
+display:none;}
+.western{margin-bottom:15px !important;line-height:1.3 !important;}
+/*滚动条整体样式*/
+::-webkit-scrollbar{
+  width: 5px;/*竖向滚动条的宽度*/
+  height: 5px;/*横向滚动条的高度*/
+}
+::-webkit-scrollbar-thumb{/*滚动条里面的小方块*/
+  background: #666666;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track{/*滚动条轨道的样式*/
+  background: #ccc;
+  border-radius: 5px;
+}
+.go{z-index:999}
+.body_home{height:100vh;overflow:hidden;}
+.body_b{
+	width:100%;overflow:hidden;position:relative;
+}
+.body_b{position:fixed;left:0%;top:100%;bottom:0;right:0;background:#fff;overflow:hidden;transition:top 0.7s cubic-bezier(0.5,0,0.2,1) 0s;z-index:1;overflow:auto;outline:none; z-index:9;}
+.body_b *{outline:none;}
+.body_b.showdiv{top:0;z-index:999}
+.start-box{
+      position:relative;height: 100vh;overflow-y: hidden;
+}
+.videoBg{
+	position:absolute;left:0;top:-140px;z-index:-1;
+}
+.slide-box{
+      position: absolute;top: 0;left: 0;height:500px;z-index:-1;
+}
+.logo-nav{
+     width: 100%;height: 100%; position: absolute;top:0;left:0;z-index: 999;
+}
+.logo{
+    padding-top: 70px;
+}
+.go{
+    position: absolute;
+    left: 50%;cursor: pointer;
+    bottom: 220px;
+    margin-left: -62px;
+    padding-top: 25px;
+    width: 124px;
+    height: 34px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: url(../../../../material/2022/images/go.png) top center no-repeat;
+    -webkit-animation: TopBots 1.2s ease-in-out infinite both;
+    -moz-animation: TopBots 1.2s ease-in-out infinite both;
+    -ms-animation: TopBots 1.2s ease-in-out infinite both;
+    animation: TopBots 1.2s ease-in-out infinite both;
+}
+.go a{
+    color: #fff;text-decoration: none;
+}
+.logo-nav .nav{
+    position: absolute;width:1400px;
+    left: 50%;margin-left: -700px;
+    bottom: 100px;padding:16px 0 16px 18px !important;
+}
+
+.start-box .logo-nav .logo {
+    visibility: visible;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+}
+.start-box .logo-nav .nav {
+    visibility: visible;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+}
+.start-box .logo-nav .nav {
+    background-color: rgba(255,255,255,.7);
+    border-radius: 5px;
+    padding: 16px 0;display: flex;
+}
+.start-box .logo-nav .nav .navItem{
+    overflow: hidden;width: 20%;display: flex;align-items: center;
+}
+.start-box .logo-nav .nav .navItem>em {
+    display: block;background: #2d82b5;
+    float: left;
+    margin-left: 0;
+    width: 68px;
+    height: 68px;
+    border-radius: 24px;
+}
+.start-box .logo-nav .nav .navItem:hover em i {
+    transform: rotateY(180deg);
+}
+.start-box .logo-nav .nav .navItem:nth-child(1) em i {
+    background: url(../../../../material/2022/icon/icon01.png) center no-repeat;
+}
+.start-box .logo-nav .nav .navItem:nth-child(2) em i {
+    background: url(../../../../material/2022/icon/icon02.png) center no-repeat;
+}
+.start-box .logo-nav .nav .navItem:nth-child(3) em i {
+    background: url(../../../../material/2022/icon/icon03.png) center no-repeat;
+}
+.start-box .logo-nav .nav .navItem:nth-child(4) em i {
+    background: url(../../../../material/2022/icon/icon04.png) center no-repeat;
+}
+.start-box .logo-nav .nav .navItem:nth-child(5) em i {
+    background: url(../../../../material/2022/icon/icon06.png) center no-repeat;
+}
+.start-box .logo-nav .nav .navItem:nth-child(6) em i {
+    background: url(../../../../material/2022/icon/icon05.png) center no-repeat;
+}
+.start-box .logo-nav .nav .navItem em i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.5s;
+}
+.start-box .logo-nav .nav .navItem .navItem-right{
+    margin-left: 10px;color: #333;
+}
+.start-box .logo-nav .nav .navItem .navItem-right h2{
+    margin-bottom: 10px;font-size:16px;
+}
+.start-box .logo-nav .nav .navItem .navItem-right .navItemLink a{
+    color: #666;font-size: 14px;text-decoration: none;
+}
+.start-box .logo-nav .nav .navItem .navItem-right i {
+    display: inline-block;vertical-align: -1px;
+    width: 1px;margin: 0 3px;
+    height: 13px;
+    background-color: #666;
+}
+.start-box .logo-nav .nav .navItem .navItem-right .navItemLink a:hover{
+    color: #2d82b5;
+}
+.top-title{
+    height:auto;z-index:999;padding-top:20px;font-size:0;
+}
+/* <!-- .model{ -->
+	<!-- width:100%;height:100%;background-image:linear-gradient(#b6ceea, #fff);position:absolute;z-index:-1;top:0;left:0; -->
+<!-- } --> */
+
+table {margin: auto;}
+.content_article section{justify-content:center !important}
+</style>
+<body>
+       <div class="m-mask"></div>  <!-- 移动端导航遮罩 -->
+	<!-- 移动端头部开始 -->
+	<div class="mobileDis" style="display:none;">
+		<div class="top">
+			<div class="top-box">
+				<div class="top-le fl">
+					<span>欢迎来到武汉光谷！</span>
+				</div>
+				<div class="top-ri fr">
+					<a href="">加入收藏</a>
+					<i>|</i>
+					<a href="">设为首页</a>
+					<span>无障碍访问</span>
+				</div>
+			</div>			
+		</div>
+		<div class="mobileHeader">
+			<div class="headerM">
+				<div class="mobile-logo"><a href="#"><img src="/material/2022/images/logo.png" /></a></div>
+			</div>
+			<div class="m_s_nav">
+				<div class="m_search">
+					<input type="text fl" placeholder="请输入搜索关键字" id="textfield_mo" name="search" maxlength="50" />
+					<button class="but fr" type="submit" onclick="chkSearch1()"></button>
+				</div>
+				<div class="wapNavBox">
+					<div class="wapNav"> 
+					   <div></div> 
+					   <div></div> 
+					   <div></div> 
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="m-wapnav-body" >
+			<div class="logo_box">
+                <a href="">
+                    <img src="/material/2022/images/logo2.png" />
+                </a>
+            </div>
+			<a href="https://www.wehdz.gov.cn/2022/" class="li_01"><i></i>首页</a> 
+			<a href="https://www.wehdz.gov.cn/2022/zfxxgk/" class="li_02"><i></i>政务信息公开</a> 
+			<a href="https://www.wehdz.gov.cn/2022/jdhy/" class="li_03"><i></i>解读回应</a> 
+			<a href="https://www.wehdz.gov.cn/2022/bsfw/" class="li_04"><i></i>网上服务</a> 
+			<a href="https://www.wehdz.gov.cn/2022/hdjl_68756/" class="li_05"><i></i>互动交流</a> 
+			<a href="https://www.wehdz.gov.cn/2022/sjgg_68763/" class="li_06"><i></i>世界光谷</a> 
+                        <a href="https://www.wehdz.gov.cn/2022/ztzl_75799/" class="li_07"><i></i>专题专栏</a> 
+		</div>	
+	</div>
+	<!-- 移动端头部结束 -->
+<script>
+    function chkSearch1() {
+        if ($('#textfield_mo').val() == '' || $('#textfield_mo').val().length == 0) {
+            alert('请输入关键字');
+            return false;
+        }
+        var keywords1 = encodeURI($('#textfield_mo').val());
+        $url1 = '/SITE/whs_70/search.html?searchWord=' + keywords1 + '&siteId=44&pageSize=10';
+        window.open($url1, '_blank');
+    }
+
+    function fileSearch() {
+        if ($('#fileSearch').val() == '' || $('#fileSearch').val().length == 0) {
+            alert('请输入关键字');
+            return false;
+        }
+        var keywords = encodeURI($('#fileSearch').val());
+        $url = '/SITE/whs_70/search.html?searchWord=' + keywords + '&siteId=44&pageSize=10&type=71269&term=文件';
+        window.open($url, '_blank');
+    }
+    
+    window.onload = function(){
+        $('#textfield_mo').on('keypress', function (event) {
+            if (event.keyCode === 13) {
+                chkSearch1();
+            }
+        });
+        $('#fileSearch').on('keypress', function (event) {
+            if (event.keyCode === 13) {
+                fileSearch();
+            }
+        });
+    }
+</script>
+	<div class="">
+		<!-- Swiper -->
+		<!-- <div class="swiper-container slide-box">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/banner.png" /></div>
+				<div class="swiper-slide"><img src="images/banner1.png" /></div>
+			</div>
+		</div> -->
+		<!-- <div class="model"></div> -->
+
+		<div class="slide-box"></div>
+		<div class="top-header">
+    <div class="top-headerBox w1200">
+        <div class="top-headerLe"><a href="https://www.gov.cn/" target="_self" >中央人民政府门户网站</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://www.hubei.gov.cn/" target="_self" >湖北省政府门户网站</a></div>
+        <div class="top-headerRi"><a href="https://www.wehdz.gov.cn/2022/hdjl_68756/znwd/index.shtml" target="_blank" >智能问答</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a id="wuzhangai" href="javascript:void(0);" target="_self" >无障碍浏览</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://www.wehdz.gov.cn/2022/zzzq/">长者专区</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://www.chinaopticsvalley.com/" target="_blank" >ENGLISH</a>
+&nbsp;&nbsp;<script type="text/javaScript">
+                        var sysdate = new Date();
+                        var year = sysdate.getFullYear();
+                        var month = sysdate.getMonth();
+                        var date = sysdate.getDate();
+                        var day = sysdate.getDay();
+                        var week = ['日', '一', '二', '三', '四', '五', '六'];
+                        document.write(year + "年" + (month + 1) + "月" + date + "日 星期" + week[day]);
+                    </script>
+</div>
+    </div>
+</div>
+<div class="top-title">
+    <div class="w1200">
+        <img src="/material/2022/images/logo.png" alt="" />
+    </div>
+    <div class="tabs">
+        <div class="tabs-box w1200">
+            <a href="https://www.wehdz.gov.cn/2022/"><span id="tb_68626">首页</span></a>
+            <a href="https://www.wehdz.gov.cn/2022/zfxxgk/"><span id="tb_68631">政府信息公开</span></a>
+            <a href="https://www.wehdz.gov.cn/2022/jdhy/"><span id="tb_76024">解读回应</span></a>
+            <a href="https://www.wehdz.gov.cn/2022/bsfw/"><span id="tb_68738">网上服务</span></a>
+            <a href="https://www.wehdz.gov.cn/2022/hdjl_68756/"><span id="tb_68756">互动交流</span></a>
+            <a href="https://www.wehdz.gov.cn/2022/sjgg_68763/"><span id="tb_68763">世界光谷</span></a>
+            <input type="text" id="textfield" maxlength="50" name="search" placeholder="请输入关键字" />
+            <button type="submit" onclick="chkSearch()"></button>
+        </div>
+    </div>
+</div>
+<style>
+    .top-headerBox a{
+        font-size: 16px;
+        color: #fff;
+    }
+</style>
+<link href="/material/wh-wza/indeci/static/css/iconfont.css" rel="stylesheet" type="text/css" />
+<link href="/material/wh-wza/indeci/static/css/indeci.css" rel="stylesheet" type="text/css" />
+<script src="/material/wh-wza/indeci/static/js/iframe.js" id="barrierFree" data="sn=78D6648F6824259929C27C3E0D6964E40CB734F93284C7F6C2D6672907F7F9CB&amp;rcode=D6A56C9A981B4FEF0C1264B09C40BF99F0EB9A50D5D36B93CE5A692D27196476003EC03B6082B1D616EB3045AA4B89DED1621AC006BC1ECE526A815EAB0E557F435E1BA167271C368AF291A932D3AD96E6D1539DFD709B2A18051690B4E02EF1F86869BBB475FFAF5C1A0FEE6F0B64FB0EDAE139B80F00B2C9CB179C701736A1&helpsrc=/material/wh-wza/&isopen=0"></script>
+
+<script>
+	function chkSearch(){
+		if($('#textfield').val() == '' || $('#textfield').val().length == 0){
+			alert('请输入关键字');
+			return false;
+		}
+		var keywords = encodeURI($('#textfield').val());
+		$url ='/SITE/whs_70/search.html?searchWord='+keywords +'&siteId=44&pageSize=10';
+		window.open($url,'_blank'); 
+	}	
+
+	$('#textfield').on('keypress',function (event) {
+		if (event.keyCode === 13){
+			chkSearch();
+		}
+	});
+
+	function fileSearch(){
+		if($('#fileSearch').val() == '' || $('#fileSearch').val().length == 0){
+			alert('请输入关键字');
+			return false;
+		}
+		var keywords = encodeURI($('#fileSearch').val());
+		$url ='/SITE/whs_70/search.html?searchWord='+keywords +'&siteId=44&pageSize=10&type=71269&term=文件';
+		window.open($url,'_blank'); 
+	}	
+		$('#fileSearch').on('keypress',function (event) {
+			if (event.keyCode === 13){
+				fileSearch();
+			}
+		});
+</script>
+		<div class="main  w1200">
+			<div class="tabs_con">
+				<div class="content_top clearfix">
+                    
+					<div class="curmb"><a href="../../../" target="_blank" title="首页" class="CurrChnlCls">首页</a>&nbsp;»&nbsp;<a href="../../" target="_blank" title="光谷新闻" class="CurrChnlCls">光谷新闻</a>&nbsp;»&nbsp;<a href="../" target="_blank" title="通知公告" class="CurrChnlCls">通知公告</a></div>
+                    
+					<div class="content_slide" id="content-slide">
+						<div class="mainbox_bg container clearfix">
+							<h1 class="content_title">关于转发《兑现支持文化和旅游产业高质量发展若干奖补政策的申报指南的通知》</h1>
+							<div class="content_attr clearfix">
+								<ul class="fl">
+									<li class="date"><i></i><span> 2026-01-30 09:11</span></li>
+									<li class="ly">
+										<i></i>
+										<span>来源：
+											<b>
+
+												
+													武汉市文化和旅游局
+												
+												
+											</b>
+										</span>
+									</li>
+								</ul>
+								<ul class="attr_r fr">
+									<li class="fontsize">
+									  <i title="加大" class="l" id="f-add"></i>
+									</li>
+									<li class="fontsize">
+									  <i title="中" class="m" id="f-fhy"></i>
+									</li>
+									<li class="fontsize">
+									  <i title="减小" class="s" id="f-dec"></i>
+									</li>
+									<li class="print"><i title="打印" onclick="javascript:window.print()"></i></li>
+									<li class="fx">
+									  <div class="btn"><i></i></div>
+                                      <div class="hideDiv share">
+                                        <dl>
+                                            <dt>分享到</dt>
+                                            <dd class="fxd_con">
+                                                <div class="bdsharebuttonbox bdshare-button-style0-32">
+                                                    <a title="分享到微信" class="bds_weixin" onclick="share2wechat()"></a>
+                                                    <a title="分享到QQ空间" class="bds_qzone" onclick="shareQzone()"></a>
+                                                    <a title="分享到新浪微博" class="bds_tsina" onclick="shareTSina()"></a>
+                                                </div>
+                                            </dd>
+                                        </dl>
+                                        <!-- 分享引用 -->
+                                        <link href="../../../../material/2024/css/share.css" rel="stylesheet" />
+                                        <script language="JavaScript" type="text/javascript" src="../../../..//material/2024/js/bshareC0.js" charset="utf-8"></script>
+                                        <script language="JavaScript" type="text/javascript" src="../../../..//material/2024/js/buttonLite.js" charset="utf-8"></script>
+                                        <script language="JavaScript" type="text/javascript" src="../../../..//material/2024/js/jquery.qrcode.min.js" charset="utf-8"></script>
+                                        <script language="JavaScript" type="text/javascript" src="../../../..//material/2024/js/share.js" charset="utf-8"></script>
+                                        <script>
+                                            var title = document.title;
+                                            var rLink = window.location.href;
+                                            var summary = document.title;
+                                            var site = window.location.href;
+                                            /*,分享到qq空间*/
+                                            function shareQzone() {
+                                                window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title=' +
+                                                    encodeURIComponent(title) + '&url=' + encodeURIComponent(rLink) + '&summary=' +
+                                                    encodeURIComponent(summary) + '&site=' + encodeURIComponent(site), '_blank',);
+                                            }
+
+                                            function shareTSina() {
+                                                window.open("http://service.weibo.com/share/share.php?pic=" + "&title=" +
+                                                    encodeURIComponent(title.replace(/&nbsp;/g, " ").replace(/<br \/>/g, " ")) + "&url=" + encodeURIComponent(rLink), "分享至新浪微博",);
+
+                                            }
+
+                                          function share2wechat() {
+    if ($("#wechat-share").length === 0) {
+      $("body").append(
+        '<div id="wechat-share" style="position: fixed;left: 50%;top: 50%;margin-left: -120px;margin-top: -158px;padding:10px; border: solid 1px #d8d8d8;background: #fff;z-index: 11001;font-size: 12px;"><div style="font-size: 12px;font-weight: bold;text-align: left;line-height: 16px;height: 16px;position: relative;color: #000;"><span>分享到微信朋友圈</span><a href="#" onclick="document.getElementById(\'wechat-share\').remove();return false;" style="width: 16px;height: 16px;position: absolute;right: 0px;top: 0px;color: #999;text-decoration: none;font-size: 16px;">×</a></div><div style="padding:15px 10px;"><div id="wechatsharecode" style="width:205px;height:205px;margin:0px auto;"></div></div><div style="font-size: 12px;text-align: left;line-height: 22px;color: #666;">打开微信，点击底部的“发现”，<br>使用“扫一扫”即可将网页分享至朋友圈。</div></div>'
+      );
+      $("#wechatsharecode").qrcode({
+        text: document.location.href,
+        width: 205,
+        height: 205,
+      });
+    } else {
+      $("#wechat-share").css("display", "block");
+    }
+  }
+                                        </script>
+
+                                    </div>
+									</li>
+								</ul> 
+							</div>
+						</div>
+					</div>
+					<div class="mainbox_bg content">
+						<div class="content_article" id="zoomcon">
+                                                        <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_web trs_word"><p style="margin-top: 0px;white-space: normal">各相关单位：<br/></p><p style="white-space: normal">     现将《兑现支持文化和旅游产业高质量发展若干奖补政策的申报指南的通知》转发给你们，请符合要求的企业、机构积极申报，并按照申报指南填报申报材料。请于2026年2月6日（周五）前，将申报材料纸质版一份、电子版一份（pdf扫描件+word文档）报送至我局。</p><p style="white-space: normal">&nbsp; &nbsp; &nbsp; &nbsp; 联系电话：陆佳培 027-65563367，邮箱：978983645@qq.com</p><p style="white-space: normal">    附件：1.兑现支持文化和旅游产业高质量发展若干奖补政策的申报指南的通知</p><p style="white-space: normal">             2.申报指南附件</p><p style="white-space: normal">             3.支持文化和旅游产业高质量发展若干奖补政策</p><p style="white-space: normal;text-align: right">                                         武汉东湖新技术开发区文化旅游体育局</p><p style="white-space: normal;text-align: right">2026年1月30日        </p><p><br/></p><p><br/></p> </div>
+						</div>	
+                        
+						<div class="article-footer" id="articleFJ" name="articleFJ" style="display: block">
+							<h3 class="f-tit">附件：</h3>
+							<ul id="appendix_list">
+                                <li><a href="./P020260130346643319592.pdf">附件：兑现支持文化和旅游产业高质量发展若干奖补政策的申报指南.pdf</a></li><BR/><li><a href="./P020260130346643794318.docx">申报指南附件2、3、4.docx</a></li><BR/><li><a href="./P020260130346644120386.pdf">若干奖补政策.pdf</a></li>
+							</ul>
+						</div>
+                        
+						<script>
+                            $(document).ready(function() {
+                                var pfileattach= $("#articleFJ");
+                                var flist = $("#articleFJ a"); 
+                                if(flist.length<=0){ 
+                                    pfileattach.hide(); 
+                                } 
+                            });
+						</script>
+                        <!-- 关联解读 -->
+						<div class="info_xgxw" id="articleXGJD"  style="display: none">
+							<div class="info_xgxw_title">相关解读</div>
+							<ul>
+                                			  
+							</ul>
+						</div> 
+
+                         <!-- 相关解读 -->
+						<div class="info_xgxw" id="articleGLZC"  style="display: none">
+							<div class="info_xgxw_title">关联政策</div>
+							<ul>
+                                			  
+							</ul>
+						</div> 
+
+                         <!-- 相关内容 -->
+						<div class="info_xgxw" id="articleGLNR"  style="display: none">
+							<div class="info_xgxw_title">关联内容</div>
+							<ul>
+                                			  
+							</ul>
+						</div> 
+                        <!-- 相关文章 -->
+						<div class="info_xgxw" id="articleXGWZ"  style="display: none">
+							<div class="info_xgxw_title">相关文章</div>
+							<ul>
+                                			  
+							</ul>
+						</div> 
+                        <!-- 二维码开始 -->
+                        <div class="ewm article-code tc" id="qrcodeCanvas" style="text-align: center;">
+                            <p style="margin:1em 0;text-align: center;">扫一扫在手机上查看当前页面</p>
+                            <script>
+                            jQuery('#qrcodeCanvas').qrcode({
+                                render: "canvas", //也可以替换为table
+                                width: 160,
+                                height: 160,
+                                text: document.location.href
+                            });
+                            </script>
+                            
+                        </div>
+                        <!-- 二维码结束 -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<style>
+  .footerTop_box form select {
+    width: 118px;
+  }
+
+  .footerBottom_box_01 a {
+    margin: 0px 30px;
+  }
+
+  .footerBottom_box_03 p a {
+    color: #333;
+    font-size: 14px;
+  }
+
+  .footerTop_box .webs-box .web-item-box .web-item {
+    padding: 0px 13px;
+  }
+
+  .webztzl {
+    cursor: pointer;
+    padding-left: 26px;
+  }
+
+  .webztzl .content {
+    width: 205px;
+    height: 40px;
+    border-radius: 2px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .footerBottom_box_02 {
+    width: 420px;
+  }
+
+  .footerBottom_box_02 ul li::before {
+    right: -10px;
+  }
+</style>
+<div class="footer">
+  <div class="footerTop">
+    <div class="w footerTop_box">
+      <div class="webs-box">
+        <div class="web-item-box fl">
+          <div class="web-item fl" tab="1">
+            <div class="content">
+              政府网站
+            </div>
+          </div>
+          <div class="web-item fl" tab="2">
+            <div class="content">
+              区内企业网站
+            </div>
+          </div>
+          <div class="web-item fl" tab="3">
+            <div class="content">
+              国家高新区网站
+            </div>
+          </div>
+          <div class="web-item fl" tab="4">
+            <div class="content">
+              自贸区网站
+            </div>
+          </div>
+          <div class="web-item fl" tab="5">
+            <div class="content">
+              信用网站
+            </div>
+          </div>
+          <div class="webztzl fl" tab="6">
+            <div class="content" onclick="window.location.href='https://www.wehdz.gov.cn/2022/ztzl_75799/index.shtml'">
+              专题栏目
+            </div>
+          </div>
+          <div class="about-webs-wrap">
+            <div class="about-webs-inner">
+              <div class="web-item-tit-box">
+                <div class="close-ico"></div>
+                <ul class="clear">
+                  <li class="active" tab="1">政府网站</li>
+                  <li tab="2">区内企业网站</li>
+                  <li tab="3">国家高新区网站</li>
+                  <li tab="4">自贸区网站</li>
+                  <li tab="5">信用网站</li>
+                  <!-- <li tab="6">专题专栏</li> -->
+                </ul>
+              </div>
+              <ul class="about-webs" tab="1">
+                <li><a href="https://www.gov.cn/" title="中国政府网">中国政府网</a></li>
+                <li><a href="https://www.ndrc.gov.cn/" title="发改委">发改委</a></li>
+                <li><a href="https://www.most.gov.cn/" title="科技部">科技部</a></li>
+                <li><a href="https://www.miit.gov.cn/" title="工信部">工信部</a></li>
+                <li><a href="https://www.mofcom.gov.cn/" title="商务部">商务部</a></li>
+                <li><a href="http://www.pbc.gov.cn/" title="人民银行">人民银行</a></li>
+                <li><a href="http://www.customs.gov.cn/" title="海关总署">海关总署</a></li>
+                <li><a href="https://www.samr.gov.cn/" title="检验检疫总局">检验检疫总局</a></li>
+                <li><a href="http://www.chinatorch.gov.cn/" title="科技部火炬中心">科技部火炬中心</a></li>
+                <li><a href="https://www.hubei.gov.cn/" title="湖北省政府">湖北省政府</a></li>
+                <li><a href="https://swt.hubei.gov.cn/" title="省商务厅">省商务厅</a></li>
+                <li><a href="https://fgw.hubei.gov.cn/" title="省发改委">省发改委</a></li>
+                <li><a href="http://wuhan.customs.gov.cn/" title="武汉海关">武汉海关</a></li>
+                <li><a href="https://www.safe.gov.cn/hubei/index.html" title="国家外汇管理局湖北省分局">国家外汇管理局湖北省分局</a></li>
+                <li><a href="https://www.wuhan.gov.cn/" title="武汉市政府">武汉市政府</a></li>
+              </ul>
+              <ul class="about-webs" tab="2">
+                <li><a href="https://www.whghjt.com/" title="武汉葛化集团有限公司">武汉葛化集团有限公司</a></li>
+                <li><a href="https://www.whgk.com/" title="武汉高科国有控股集团有限公司">武汉高科国有控股集团有限公司</a></li>
+                <li><a href="http://www.hbsti.com/" title="湖北省科技投资集团有限公司">湖北省科技投资集团有限公司</a></li>
+                <li><a href="http://www.ggjstz.com/" title="武汉光谷建设投资有限公司">武汉光谷建设投资有限公司</a></li>
+                <li><a href="https://www.whggjtjs.com/index.html" title="武汉光谷交通建设有限公司">武汉光谷交通建设有限公司</a></li>
+                <li><a href="http://www.whggjk.com/" title="武汉光谷金融控股集团有限公司">武汉光谷金融控股集团有限公司</a></li>
+                <li><a href="https://www.xmcwh.com/" title="武汉新芯集成电路制造有限公司">武汉新芯集成电路制造有限公司</a></li>
+                <li><a href="https://www.yofc.com/" title="长飞光纤光缆股份有限公司">长飞光纤光缆股份有限公司</a></li>
+                <li><a href="https://www.humanwell.com.cn/" title="武汉人福医药集团股份有限公司">武汉人福医药集团股份有限公司</a></li>
+                <li><a href="http://www.szcsot.com/" title="武汉华星光电半导体显示技术有限公司">武汉华星光电半导体显示技术有限公司</a></li>
+                <li><a href="https://www.tianma.cn/" title="武汉天马微电子有限公司">武汉天马微电子有限公司</a></li>
+                <li><a href="https://www.wuhan-guide.com/" title="武汉高德红外股份有限公司">武汉高德红外股份有限公司</a></li>
+                <li><a href="https://www.stnts.com/" title="湖北盛天网络技术股份有限公司">湖北盛天网络技术股份有限公司</a></li>
+                <li><a href="http://zxjc.norincogroup.com.cn/" title="武汉重型机床集团有限公司">武汉重型机床集团有限公司</a></li>
+                <li><a href="https://www.hgtech.com.cn/" title="华工科技产业股份有限公司">华工科技产业股份有限公司</a></li>
+                <li><a href="https://www.icbase.com/" title="武汉力源信息技术股份有限公司">武汉力源信息技术股份有限公司</a></li>
+              </ul>
+              <ul class="about-webs" tab="3">
+                <li><a href="https://kw.beijing.gov.cn/" title="中关村">中关村</a></li>
+                <li><a href="https://www.shipsc.org/" title="深圳高新区">深圳高新区</a></li>
+                <li><a href="https://www.cdht.gov.cn/" title="成都高新技术产业开发区">成都高新技术产业开发区</a></li>
+                <li><a href="http://www.glgxq.gov.cn/" title="桂林高新技术产业区">桂林高新技术产业区</a></li>
+                <li><a href="http://www.uhdz.gov.cn/" title="乌鲁木齐国家高新区">乌鲁木齐国家高新区</a></li>
+                <li><a href="https://gxq.km.gov.cn/" title="昆明高新技术产业开发区">昆明高新技术产业开发区</a></li>
+                <li><a href="https://www.shidz.gov.cn/" title="石家庄高新技术产业开发区">石家庄高新技术产业开发区</a></li>
+                <li><a href="https://www.tht.gov.cn/" title="天津新技术产业园区">天津新技术产业园区</a></li>
+                <li><a href="http://www.hunnan.gov.cn/" title="沈阳高新技术产业开发区">沈阳高新技术产业开发区</a></li>
+                <li><a href="https://www.dlhitech.gov.cn/" title="大连高新技术产业开发区">大连高新技术产业开发区</a></li>
+                <li><a href="http://gxq.anshan.gov.cn/" title="鞍山高新技术产业开发区">鞍山高新技术产业开发区</a></li>
+                <li><a href="http://www.ccxq.gov.cn/" title="长春高新技术产业开发区">长春高新技术产业开发区</a></li>
+                <li><a href="http://www.jlhitech.gov.cn/" title="吉林高新技术产业开发区">吉林高新技术产业开发区</a></li>
+                <li><a href="https://dhp.daqing.gov.cn/" title="大庆高新技术产业开发区">大庆高新技术产业开发区</a></li>
+                <li><a href="http://www.bdgxq.gov.cn/" title="保定高新技术产业开发区">保定高新技术产业开发区</a></li>
+                <li><a href="https://innovation.jinan.gov.cn/" title="济南高新技术产业开发区">济南高新技术产业开发区</a></li>
+                <li><a href="https://www.yangling.gov.cn/" title="杨凌农业高新技术产业示范区">杨凌农业高新技术产业示范区</a></li>
+                <li><a href="https://www.wfgx.gov.cn/" title="潍坊高新技术产业开发区">潍坊高新技术产业开发区</a></li>
+                <li><a href="http://bjgx.baoji.gov.cn/" title="宝鸡高新技术产业开发区">宝鸡高新技术产业开发区</a></li>
+                <li><a href="https://qilinpark.nanjing.gov.cn/" title="南京麒麟高新技术产业开发区">南京麒麟高新技术产业开发区</a></li>
+                <li><a href="http://www.snd.gov.cn/snd/" title="苏州高新技术产业开发区">苏州高新技术产业开发区</a></li>
+                <li><a href="http://www.czxd.gov.cn/" title="常州高新技术产业开发区">常州高新技术产业开发区</a></li>
+                <li><a href="https://www.wnd.gov.cn/" title="无锡高新技术产业开发区">无锡高新技术产业开发区</a></li>
+                <li><a href="https://www.hhtz.gov.cn/" title="杭州高新技术产业开发区">杭州高新技术产业开发区</a></li>
+                <li><a href="https://fzgxq.fuzhou.gov.cn/" title="福州高新技术产业开发区">福州高新技术产业开发区</a></li>
+                <li><a href="https://xmtorch.xm.gov.cn/" title="厦门火炬高新技术产业开发区">厦门火炬高新技术产业开发区</a></li>
+                <li><a href="https://nchdz.nc.gov.cn/" title="南昌高新技术产业开发区">南昌高新技术产业开发区</a></li>
+                <li><a href="https://www.zzgx.gov.cn/" title="郑州高新技术产业开发区">郑州高新技术产业开发区</a></li>
+                <li><a href="https://www.lhdz.gov.cn/" title="洛阳高新技术产业开发区">洛阳高新技术产业开发区</a></li>
+                <li><a href="https://xdz.xa.gov.cn/" title="西安高新技术产业开发区">西安高新技术产业开发区</a></li>
+                <li><a href="https://gxq.guiyang.gov.cn/" title="贵阳高新技术产业开发区">贵阳高新技术产业开发区</a></li>
+                <li><a href="https://www.zhuhai-hitech.gov.cn/" title="珠海高新技术产业开发区">珠海高新技术产业开发区</a></li>
+                <li><a href="https://fs-hitech.foshan.gov.cn/" title="佛山高新技术产业开发区">佛山高新技术产业开发区</a></li>
+                <li><a href="https://www.hzzk.gov.cn/" title="惠州仲恺高新技术产业开发区">惠州仲恺高新技术产业开发区</a></li>
+                <li><a href="https://www.zs.gov.cn/hjq/" title="中山火炬高新技术开发区">中山火炬高新技术开发区</a></li>
+                <li><a href="https://gxq.nanning.gov.cn/" title="南宁高新技术产业开发区">南宁高新技术产业开发区</a></li>
+              </ul>
+              <ul class="about-webs" tab="4">
+                <li><a href="https://www.hnftp.gov.cn/"
+                    title="海南自由贸易港">海南自由贸易港</a></li>
+                <li><a href="https://www.china-tjftz.gov.cn/" title="中国(天津)自由贸易试验区">中国(天津)自由贸易试验区</a></li>
+                <li><a href="https://www.pudong.gov.cn/china-shftz/" title="中国(上海)自由贸易试验区">中国(上海)自由贸易试验区</a></li>
+                <li><a href="https://www.lingang.gov.cn/html/website/lg/index.html" title="中国(上海)自由贸易试验区临港新片区">中国(上海)自由贸易试验区临港新片区</a></li>
+                <li><a href="https://com.gd.gov.cn/zggdzymysyq/zjzmq/zmsyqjj/index.html" title="中国(广东)自由贸易试验区">中国(广东)自由贸易试验区</a></li>
+                <li><a href="https://swt.fujian.gov.cn/zgfjzmsyqzq/"
+                    title="中国(福建)自由贸易试验区">中国(福建)自由贸易试验区</a></li>
+                <li><a href="https://swt.ln.gov.cn/swt/ywxx/zmqjs/index.shtml" title="中国(辽宁)自由贸易试验区">中国(辽宁)自由贸易试验区</a></li>
+                <li><a href="https://ftz.zj.gov.cn/" title="中国(浙江)自由贸易试验区">中国(浙江)自由贸易试验区</a></li>
+                <li><a href="https://hnsswt.henan.gov.cn/zt/2021/186190/index.html" title="中国(河南)自由贸易试验区">中国(河南)自由贸易试验区</a></li>
+                <li><a href="http://sww.cq.gov.cn/zymyq/" title="中国(重庆)自由贸易试验区">中国(重庆)自由贸易试验区</a></li>
+                <li><a href="https://ftz.shaanxi.gov.cn/" title="中国(陕西)自由贸易试验区">中国(陕西)自由贸易试验区</a></li>
+                <li><a href="http://commerce.shandong.gov.cn/ftz/" title="中国(山东)自由贸易试验区">中国(山东)自由贸易试验区</a></li>
+                <li><a href="https://doc.jiangsu.gov.cn/ftz/" title="中国(江苏)自由贸易试验区">中国(江苏)自由贸易试验区</a></li>
+                <li><a href="http://gxftz.gxzf.gov.cn/" title="中国（广西）自由贸易试验区">中国（广西）自由贸易试验区</a></li>
+                <li><a href="http://ftz.hebei.gov.cn/" title="中国(河北)自由贸易试验区">中国(河北)自由贸易试验区</a></li>
+                <li><a href="https://swt.yn.gov.cn/categories/394" title="中国(云南)自由贸易试验区">中国(云南)自由贸易试验区</a></li>
+                <li><a href="http://ftz.hlj.gov.cn/" title="中国(黑龙江)自由贸易试验区">中国(黑龙江)自由贸易试验区</a></li>
+                <li><a href="https://open.beijing.gov.cn/" title="中国(北京)自由贸易试验区">中国(北京)自由贸易试验区</a></li>
+                <li><a href="https://ftz.hunan.gov.cn/" title="中国(湖南)自由贸易试验区">中国(湖南)自由贸易试验区</a></li>
+                <li><a href="https://ftz.ah.gov.cn/" title="中国(安徽)自由贸易试验区">中国(安徽)自由贸易试验区</a></li>
+
+              </ul>
+              <ul class="about-webs" tab="5">
+                <li><a href="https://www.creditchina.gov.cn/" title="信用中国">信用中国</a></li>
+                <li><a href="https://credit.hubei.gov.cn/" title="信用湖北">信用湖北</a></li>
+                <li><a href="https://credit.wuhan.gov.cn/" title="信用武汉">信用武汉</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footerBottom">
+    <div class="w footerBottom_box">
+      <div class="footerBottom_box_01">
+        <script id="_jiucuo_" sitecode='4201000013' src='//www.wehdz.gov.cn/material/2021/js/jiucuo.js'></script>
+        <a href="https://bszs.conac.cn/sitename?method=show&id=5492034CF4C46A7EE053012819AC83FE"><img src="/material/2022/images/icon08.png" alt="" /></a>
+      </div>
+      <div class="footerBottom_box_02">
+        <ul>
+          <li><a href="https://www.wehdz.gov.cn/2022/wzsybz/">网站使用帮助</a></li>
+          <li><a href="https://www.wehdz.gov.cn/2022/wzdt2022/">网站地图</a></li>
+          <li><a href="https://www.wehdz.gov.cn/2022/yssm2022/">隐私声明</a></li>
+          <li><a href="https://www.wehdz.gov.cn/2022/wzsm2022/">网站声明</a></li>
+          <li><a href="https://www.wehdz.gov.cn/2022/wzsybz/202211/t20221102_2080262.shtml">电话咨询</a></li>
+        </ul>
+        <p>版权所有：武汉东湖新技术开发区管委会</p>
+        <p>地址：武汉市高新大道777号（高新大道与光谷四路交叉处）</p>
+        <p>邮编：430075&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术支持电话：027-65563188</p>
+
+      </div>
+      <div class="footerBottom_box_03">
+        <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42018502000744"><span><img src="/material/2022/images/icon10.png" alt="" /></span>鄂公网安备 42010602000718号</a></p>
+        <p><a href="https://beian.miit.gov.cn/#/Integrated/index">鄂ICP备16021917号-1</a></p>
+        <p>网站标识码：4201000013 </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  util.tabToggle($('.web-item'), '.about-webs-wrap .about-webs', 'click');
+  $(document).on('click', function (e) {
+    var that = $(e.target).parents();
+    // console.log(that);
+    var status = 0;
+    for (var key in that) {
+      if (that.hasOwnProperty(key)) {
+        var element = that[key];
+        if ($(element).hasClass('web-item-box')) {
+          status = 1;
+        }
+      }
+    }
+    if (status === 0) {
+      $('.about-webs-wrap').hide();
+    }
+  });
+
+  $('.close-ico').on('click', function (e) {
+    $('.about-webs-wrap').hide();
+  });
+  util.tabToggle($('.web-item-tit-box li'), '.about-webs-wrap .about-webs');
+</script>
+
+<!-- ---------网站链接外部链接跳转 开始------------- -->
+<link type="text/css" rel="stylesheet" href="/material/2022/layui/css/layui.css" />
+<link rel="stylesheet" type="text/css" href="/material/2022/css/a_checkDomain.css" />
+<script type="text/javascript" src="/material/2022/js/bootstrap.min.js"></script>
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="bootstrap-close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">&nbsp;</h3>
+  </div>
+  <div class="modal-body">
+    <p>您访问的链接即将离开“<span id="modalDomainName"></span>”门户网站 是否继续？</p>
+    <input id="modalOuterURL" type="hidden" />
+  </div>
+  <div class="modal-footer">
+    <button class="bootstrap-btn bootstrap-btn-default" data-dismiss="modal" aria-hidden="true">放弃</button>
+    <button class="bootstrap-btn bootstrap-btn-danger" onClick="toRedirect()">继续访问</button>
+  </div>
+</div>
+<script type="text/javascript" src="/material/2022/js/a_checkDomain.js"></script>
+<!-- ---------网站链接外部链接跳转 结束------------- -->
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?cf9393f5f8891bcd2f5196a4a723b168";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+	</div>
+	<script>
+        var PolicyInterpretation = "";
+        if (PolicyInterpretation != null && PolicyInterpretation != '') {
+            var xgjd = document.getElementById('articleXGJD');
+            if (xgjd != null) {
+                xgjd.style.display = "block";
+            }
+        }
+        var relatedpolicy = "";
+        if (relatedpolicy != null && relatedpolicy != '') {
+            var glzc = document.getElementById('articleGLZC');
+            if (glzc != null) {
+                glzc.style.display = "block";
+            }
+        }
+    var DOCRELNEWS = "";
+    if (DOCRELNEWS != null && DOCRELNEWS != '') {
+        var glnr = document.getElementById('articleGLNR');
+                        if(glnr!=null){
+                            glnr.style.display = "block";
+                        }
+    }
+        var relatedarticles = "";
+        if (relatedarticles != null && relatedarticles != '') {
+            var xgwz = document.getElementById('articleXGWZ');
+            if (xgwz != null) {
+                xgwz.style.display = "block";
+            }
+        }
+	</script>
+	<script>
+		//字体大小
+		$(".fontsize i").click(function(){
+
+				var thisEle = $("#zoomcon").css("font-size"); 
+
+				//parseFloat的第二个参数表示转化的进制，10就表示转为10进制
+
+				var textFontSize = parseFloat(thisEle , 10);
+
+				var unit = thisEle.slice(-2); //获取单位
+
+				var cName = $(this).attr("class");
+
+				if(cName == "l" && textFontSize <30){
+
+					textFontSize += 2;
+
+				}else if(cName == "s" && textFontSize >12){
+
+					textFontSize -= 2;
+
+				}else if(cName == "m"){
+
+					textFontSize = 16;
+
+				}
+
+				//设置para的字体大小
+
+				$("#zoomcon").css("font-size",  textFontSize + unit );
+				$("#zoomcon").children().css("font-size",  textFontSize + unit );
+                $("#zoomcon p").css("font-size",  textFontSize + unit );
+                $("#zoomcon span").css("font-size",  textFontSize + unit );
+		});
+	</script>
+<script type="text/javascript">
+ var videoList = document.getElementsByTagName('iframe'),
+        removeIndex = [];
+    for (var i = 0, length = videoList.length; i < length; i++) {
+        var video = videoList[i],
+        src = video.getAttribute('src');
+        if (src.indexOf('jyh.wuhan.gov.cn') > -1) {
+          
+            videoList[i].setAttribute('src', src.replace('http://jyh.wuhan.gov.cn', ''));
+           
+        }
+    }
+ </script>
+</body>
+
+</html>

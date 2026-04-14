@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="SiteName" content="上海市人民政府" >
+    <meta name="SiteDomain" content="www.shanghai.gov.cn" >
+    <meta name="SiteIDCode" content="3100000044" >
+    <meta name="ColumnName" content="浦东新区">
+    <meta name="ColumnDescription" content="" />
+    <meta name="ColumnKeywords" content="" />
+    <meta name="ColumnType" content="浦东新区">
+    <meta name="applicable-device" content="pc;mobile">
+    <meta name="location" content="province=上海;city=上海;coord=121.473717,31.23035">
+    <title>关于受理市知识产权局专利密集型产品支持政策申报材料的通知</title>
+    <meta name="ArticleTitle" content="关于受理市知识产权局专利密集型产品支持政策申报材料的通知">
+    <meta name="PubDate" content="2025-02-26 09∶02">
+    <meta name="ContentSource" content="浦东新区人民政府">
+    <meta name="keywords" content="关于受理市知识产权局专利密集型产品支持政策申报材料的通知" />
+    <meta name="Author" content="">
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="/assets2020/css/ETUI/ETUI3.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets2020/plugin/infinitypush/jquery.ma.infinitypush.css">
+    <link rel="stylesheet" type="text/css" href="/assets2020/plugin/owl/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/assets2020/css/style2020.css">
+    <link rel="stylesheet" type="text/css" href="/assets2020/css/style2020-medio.css">
+    <link rel="shortcut icon" href="/newshanghai/img/ico/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/assets2020/plugin/share/share.min.css">
+	<script src="/assets2020/js/gbk.js"></script>
+	<style>
+		.share {
+    margin-top: 5px!important;
+}
+.zhengcegaiyao-zkshouqi{
+  padding: 20px;
+  border: 1px solid #ceb98f;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.zhengcegaiyao-zkshouqi h4{
+   font-size: 26px;
+   margin-top: 0;
+   margin-bottom: 20px;
+   font-weight: bold;
+   color: #cbb487;
+}
+.zhengcegaiyao-zkshouqi h5{
+  margin-top: 0;
+  font-size: 22px;
+  color: #424242;
+  text-align: center;
+  font-weight: bold;
+
+}
+.zhengcegaiyao-zkshouqi h6{
+    font-size: 18px;
+    color: #424242;
+    margin: 30px 0;
+       
+}
+.zcgk-contenting{
+    position: relative;
+    overflow: hidden;
+    transition: height 0.24s;
+}
+.zhengcegaiyao-zkshouqi p{
+   /* text-indent: 2em; */
+   text-align: justify;
+}
+.poster-btn{
+    color: #cbb487;
+    font-size: 14px;
+    width: 7%;
+    background: url(../../assets2020/img/arrowposter.png) right no-repeat;
+    padding-right: 20px;
+    background-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.poster-btn  a{
+   color: #cbb487;
+    font-size: 14px;
+}
+.current-menu{
+    background: url(../../assets2020/img/arrowposterhui.png) right no-repeat;
+    background-size: 14px;
+}
+.zhengcegaiyao-zkshouqi .xg{
+  overflow: hidden;
+   display: -webkit-box;
+  -webkit-box-orient: vertical;
+   -webkit-line-clamp:5;
+}
+@media (max-width: 1195px){
+.poster-btn{
+  width: 9%;
+}
+}
+@media (max-width:680px){
+.poster-btn {
+    width: 10%;
+}
+}
+@media (max-width:580px){
+.poster-btn {
+    width: 12%;
+}
+}
+@media (max-width:480px){
+.zhengcegaiyao-zkshouqi {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.zhengcegaiyao-zkshouqi h4 {
+    font-size: 20px;
+}
+.zhengcegaiyao-zkshouqi h5{
+    font-size: 18px;
+}
+.zhengcegaiyao-zkshouqi h6 {
+    margin: 20px 0;
+    font-size: 16px;
+}
+.poster-btn {
+    width: 18%;
+}
+}
+	</style>
+</head>
+<body class="desktop">
+<div id="accessNull"></div>
+    <div id="container">
+<script src="/assets2020/js/header.js"></script>
+        <div id="main">
+          <div class="crumbs">
+            <div class="contain" id="mbxdh">
+                    <ol class="breadcrumb">
+                       <li><a href="/index.html" title="首页" target="_blank">首页</a></li>
+                         <li><a href='/nw2319/index.html' target='_blank' title=''>政务公开</a></li>
+                         <li><a href='/jcsfb/index.html' target='_blank' title=''>集成式发布政策库</a></li>
+                         <li><a href='/jcsfbyshq/index.html' target='_blank' title=''>营商惠企</a></li>
+                         <li><a href='/hsysjc/index.html' target='_blank' title=''>夯实营商基础</a></li>
+                         <li><a href='/yshqzscq/index.html' target='_blank' title=''>知识产权保护</a></li>
+                         <li><a href='/zscqqj/index.html' target='_blank' title=''>各区文件</a></li>
+                         <li><a href='/hsysjc-zscqqj1/index.html' target='_blank' title=''>浦东新区</a></li>
+                    </ol>
+            </div>
+          </div>
+          <div class="container">
+                <div class="row list-content years-box margin-bootm60">
+                    <div class="col-md-8">
+                        <div class="Article" id="example">                  
+							 <h2 class="no-margin-top"> 
+								 <div id="ivs_title" class="Article-title-zw">
+									关于受理市知识产权局专利密集型产品支持政策申报材料的通知
+									 <small class="PBtime">
+										 <p style="margin:0px;">
+										 <label>
+										 印发日期：2025-02-26 &nbsp;&nbsp;&nbsp;&nbsp;
+										 </label>
+										 </p>
+									 </small>
+									 <div class="zihao">
+										 <div class="through">
+											 <span>字号：</span>
+										 </div>
+										 <div class="controls">
+											 <a href="#" id="large">大</a>
+											 <a href="#" id="medium" class="selected">中</a> 
+											 <a href="#" id="small">小</a> 
+										 </div>
+									 </div>
+								 </div>
+								 
+							 </h2>
+							<!-- 语音播放器 -->
+							 <div id="ivs_player"></div>
+							<!-- 正文 -->
+							<div id="xggj" style="">
+							<div class="Article_content">
+								<!--  -->
+								<p></p><div id="ivs_content" class="trout-region-content"><p>浦东新区各相关单位：</p> 
+<p>  根据上海市知识产权局《关于开展专利密集型产品支持政策申报工作的通知》（沪知局促〔2025〕4号），市知识产权局将对本市首次获得认定的专利密集型产品予以每件1万元的奖励。</p> 
+<p>  请浦东新区2023年（23件）、2024年（31件）已被认定有专利密集型产品的单位，填写附件《单位填报信息表》，并将盖章后的扫描件发电子邮件至wangqn@pudong.gov.cn，截止时间2025年3月10日。</p> 
+<p>  附件：《单位填报信息表》</p> 
+<p>  联系人：王倩楠 &nbsp;&nbsp;联系电话：50373389 &nbsp;23170421</p> 
+<p style="text-align: right;">  浦东新区知识产权局</p> 
+<p style="text-align: right;">  2025年2月26日</p> 
+<p>  附件</p> 
+<p style="text-align: center;"><strong>单位填报信息表</strong></p> 
+<table style="border: none;" border="1" align="center"> 
+ <tbody> 
+  <tr> 
+   <td style="text-align: center; width: 90.6pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">单位名称</p> </td> 
+   <td style="text-align: center; width: 90.6pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">统一社会信用代码</p> </td> 
+   <td style="text-align: center; width: 90.6pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">账户</p> </td> 
+   <td style="text-align: center; width: 90.6pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">开户银行</p> </td> 
+   <td style="text-align: center; width: 90.6pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">申请金额</p> </td> 
+  </tr> 
+  <tr> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 90.6pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 90.6pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 90.6pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 90.6pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 90.6pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="120"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+  </tr> 
+ </tbody> 
+</table> 
+<p>  其中涉及的专利密集型产品信息：</p> 
+<table style="border: none;" border="1" align="center"> 
+ <tbody> 
+  <tr style="height: 39.7500pt;"> 
+   <td style="text-align: center; width: 73.55pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="98"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">序号</p> </td> 
+   <td style="text-align: center; width: 130pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="173"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">产品名称</p> </td> 
+   <td style="text-align: center; width: 136.2pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="181"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">专利产品备案号</p> </td> 
+   <td style="text-align: center; width: 113.25pt; padding: 0pt 5.4pt; border: 1pt solid windowtext;" width="151"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">认定年度</p> </td> 
+  </tr> 
+  <tr style="height: 31.2000pt;"> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 73.55pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="98"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">1</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 130pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="173"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 136.2pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="181"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 113.25pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="151"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+  </tr> 
+  <tr style="height: 31.2000pt;"> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 73.55pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="98"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">可续行</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 130pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="173"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 136.2pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="181"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+   <td style="text-align: center; border-width: 1px !important; border-style: solid; width: 113.25pt; padding: 0pt 5.4pt; border-left-width: 1pt; border-left-color: windowtext; border-right-width: 1pt; border-right-color: windowtext; border-top: none; border-bottom-width: 1pt; border-bottom-color: windowtext;" width="151"> <p style="margin-top: 0.0000pt; margin-right: 0.0000pt; margin-bottom: 0.0000pt; mso-para-margin-right: 0.0000gd; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; text-align: center; line-height: 30.0000pt; mso-line-height-rule: exactly;">&nbsp;</p> </td> 
+  </tr> 
+ </tbody> 
+</table> 
+<p>  本单位承诺：未按照有关规定从市级财政或区级财政获得相同或类似资助。</p> 
+<p>  申请单位：（盖章） &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;填报日期：</p></div><p></p>
+							</div>
+							<!--  -->
+							</div>
+							<div class="Article-fixed cleafix">
+								<div class="through two-fex">
+									<span>分享：</span>
+								</div>
+								<div class="share" id="share-2" data-bosszone="share">
+                          		</div>
+								<!-- <ul class="wxWrap01">
+									<script>
+									document.write('<li><a href="https://jd.sh.gov.cn/err_report/article_recomm_form.asp?newstitle='+$URL.encode("关于受理市知识产权局专利密集型产品支持政策申报材料的通知")+'" target="_blank" title="推荐">推荐</a></li>');
+									document.write('<li><a href="https://jd.sh.gov.cn/err_report/article_add_form.asp?newstitle='+$URL.encode("关于受理市知识产权局专利密集型产品支持政策申报材料的通知")+'" target="_blank" title="纠错">纠错</a></li>');
+									</script>
+									<li><a href="javascript:window.print()">打印</a></li>
+								</ul> -->
+							</div>                
+                        </div>
+                    </div>
+					
+					<div class="col-md-4">
+						<div id="yc" style="width:100%;height:920px;">
+						<!--<iframe style="width:100%;height:920px;" scrolling="No" frameborder="0" src="/zwgkyc/index.html"></iframe> -->
+						
+						</div>
+						
+					</div>
+					
+                 </div>
+          </div>
+        </div>
+		<script src="/assets2020/js/footer.js"></script>
+ </div>
+<script src="/assets2020/js/ETUI/jquery.min.1.12.4.js"></script>
+<script src="/assets2020/js/ETUI/ETUI3.min.js"></script>
+<script src="/assets2020/plugin/infinitypush/jquery.ma.infinitypush.js"></script>
+<script src="/assets2020/plugin/owl/owl.carousel.min.js"></script>
+<script src="/assets2020/plugin/jplayer/jquery.jplayer.js"></script>
+<script src="/assets2020/js/scrolltop.js"></script>
+<script src="/assets2020/plugin/ImgCrop.js"></script>
+<script src="/assets2020/js/main.js"></script>
+<script src="/assets2020/js/index.js"></script>
+<script src="/assets2020/plugin/share/jquery.share.min.js"></script>
+<script src="/assets2020/js/attach.js"></script>
+<script>
+jQuery(document).ready(function () {
+	Main.init();
+	 $('.normal-slider').owlCarousel({
+		items: 1,
+		margin: 0,
+		stagePadding: 0,
+		smartSpeed: 1000,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		
+	});
+});
+$('#share-1').share();
+$('#share-2').share();
+</script>
+<script>
+$(window).scroll(function(event) {
+	$(this).scrollTop() > 100 ? $(".xaunfu-header").addClass('fixed') : $(".xaunfu-header").removeClass('fixed');
+});
+$(function(){
+					   var clickOdd = true
+					   $('.picker').on("click",function(){
+						 var showInput =  $('.picker input');
+						 var siteId =  $('#siteId');
+						 if(clickOdd){
+							showInput.val('本站');
+							siteId.val('www.shanghai.gov.cn');
+							clickOdd = false
+						 }else{
+							showInput.val('站群');
+							siteId.val('all');
+							clickOdd = true
+						 }
+					   })
+ })
+</script>
+<script type="text/javascript">
+    $(function () {
+        helangSearch.init();
+    })
+
+ $(document).ready(function() {
+    $("#small").click(function(event) {
+        event.preventDefault();
+        $(".Article_content p").animate({
+            "font-size": "14px",
+            "line-height": "35px"
+        });
+    });
+    $("#medium").click(function(event) {
+        event.preventDefault();
+        $(".Article_content p").animate({
+            "font-size": "18px",
+            "line-height": "35px"
+        });
+    });
+    $("#large").click(function(event) {
+        event.preventDefault();
+        $(".Article_content p").animate({
+            "font-size": "22px",
+            "line-height": "35px"
+        });
+    });
+    $(".controls a").click(function() {
+        $("a").removeClass("selected");
+        $(this).addClass("selected");
+    });
+});   
+</script>
+<script type="text/javascript">
+$(function () {
+            $(".weim").hover(function(){
+                $(".xia-wm").css("display", "block");
+            }, function(){
+                $(".xia-wm").css("display", "none");
+            })
+        })
+$(function(){
+            $(".poster-btn").click(function(){
+                if ($(this).text() == "展开") {
+                    $(this).text("收起");
+                    $(this).siblings(".zcgk-contenting").removeClass("xg").css("height","auto");
+                    $(this).addClass('current-menu').siblings().removeClass('current-menu');
+                }else{
+                    $(this).text("展开");
+                    $(this).siblings(".zcgk-contenting").addClass("xg").css("height","14rem");
+                    $(this).removeClass('current-menu');
+                }
+            });
+        })
+</script>
+<script type="text/javascript" src="/assets2020/js/ywlogin.js"></script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="zh-Hans">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> 
+  <meta http-equiv="Cache-Control" content="no-siteapp"> 
+  <meta name="renderer" content="webkit"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="SiteName" content="上海市人民政府"> 
+  <meta name="SiteDomain" content="www.shanghai.gov.cn"> 
+  <meta name="SiteIDCode" content="3100000044"> 
+  <meta name="ColumnName" content="浦东新区"> 
+  <meta name="ColumnDescription" content=""> 
+  <meta name="ColumnKeywords" content=""> 
+  <meta name="ColumnType" content="浦东新区"> 
+  <meta name="applicable-device" content="pc;mobile"> 
+  <meta name="location" content="province=上海;city=上海;coord=121.473717,31.23035"> 
+  <title>关于执行浦东新区外资研发中心采购设备增值税政策的通知</title> 
+  <meta name="ArticleTitle" content="关于执行浦东新区外资研发中心采购设备增值税政策的通知"> 
+  <meta name="PubDate" content="2024-05-17 13∶05"> 
+  <meta name="ContentSource" content="浦东新区"> 
+  <meta name="keywords" content="关于执行浦东新区外资研发中心采购设备增值税政策的通知"> 
+  <meta name="Author" content=""> 
+  <meta name="description" content=""> 
+  <link rel="stylesheet" type="text/css" href="/assets2020/css/ETUI/ETUI3.min.css"> 
+  <link rel="stylesheet" type="text/css" href="/assets2020/plugin/infinitypush/jquery.ma.infinitypush.css"> 
+  <link rel="stylesheet" type="text/css" href="/assets2020/plugin/owl/owl.carousel.css"> 
+  <link rel="stylesheet" type="text/css" href="/assets2020/css/style2020.css"> 
+  <link rel="stylesheet" type="text/css" href="/assets2020/css/style2020-medio.css"> 
+  <link rel="shortcut icon" href="/newshanghai/img/ico/favicon.png"> 
+  <link rel="stylesheet" type="text/css" href="/assets2020/plugin/share/share.min.css"> 
+  <script src="/assets2020/js/gbk.js"></script> 
+  <style>
+		.share {
+    margin-top: 5px!important;
+}
+.zhengcegaiyao-zkshouqi{
+  padding: 20px;
+  border: 1px solid #ceb98f;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.zhengcegaiyao-zkshouqi h4{
+   font-size: 26px;
+   margin-top: 0;
+   margin-bottom: 20px;
+   font-weight: bold;
+   color: #cbb487;
+}
+.zhengcegaiyao-zkshouqi h5{
+  margin-top: 0;
+  font-size: 22px;
+  color: #424242;
+  text-align: center;
+  font-weight: bold;
+
+}
+.zhengcegaiyao-zkshouqi h6{
+    font-size: 18px;
+    color: #424242;
+    margin: 30px 0;
+       
+}
+.zcgk-contenting{
+    position: relative;
+    overflow: hidden;
+    transition: height 0.24s;
+}
+.zhengcegaiyao-zkshouqi p{
+   /* text-indent: 2em; */
+   text-align: justify;
+}
+.poster-btn{
+    color: #cbb487;
+    font-size: 14px;
+    width: 7%;
+    background: url(../../assets2020/img/arrowposter.png) right no-repeat;
+    padding-right: 20px;
+    background-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.poster-btn  a{
+   color: #cbb487;
+    font-size: 14px;
+}
+.current-menu{
+    background: url(../../assets2020/img/arrowposterhui.png) right no-repeat;
+    background-size: 14px;
+}
+.zhengcegaiyao-zkshouqi .xg{
+  overflow: hidden;
+   display: -webkit-box;
+  -webkit-box-orient: vertical;
+   -webkit-line-clamp:5;
+}
+@media (max-width: 1195px){
+.poster-btn{
+  width: 9%;
+}
+}
+@media (max-width:680px){
+.poster-btn {
+    width: 10%;
+}
+}
+@media (max-width:580px){
+.poster-btn {
+    width: 12%;
+}
+}
+@media (max-width:480px){
+.zhengcegaiyao-zkshouqi {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.zhengcegaiyao-zkshouqi h4 {
+    font-size: 20px;
+}
+.zhengcegaiyao-zkshouqi h5{
+    font-size: 18px;
+}
+.zhengcegaiyao-zkshouqi h6 {
+    margin: 20px 0;
+    font-size: 16px;
+}
+.poster-btn {
+    width: 18%;
+}
+}
+	</style> 
+ </head> 
+ <body class="desktop"> 
+  <div id="accessNull"></div> 
+  <div id="container"> 
+   <script src="/assets2020/js/header.js"></script> 
+   <div id="main"> 
+    <div class="crumbs"> 
+     <div class="contain" id="mbxdh"> 
+      <ol class="breadcrumb"> 
+       <li><a href="/index.html" title="首页" target="_blank">首页</a></li> 
+       <li><a href="/nw2319/index.html" target="_blank" title="">政务公开</a></li> 
+       <li><a href="/jcsfb/index.html" target="_blank" title="">集成式发布政策库</a></li> 
+       <li><a href="/jcsfbyshq/index.html" target="_blank" title="">营商惠企</a></li> 
+       <li><a href="/tsqygs/index.html" target="_blank" title="">惠企政策直达</a></li> 
+       <li><a href="/yshqzzry/index.html" target="_blank" title="">资质荣誉</a></li> 
+       <li><a href="/zzryqj/index.html" target="_blank" title="">各区文件</a></li> 
+       <li><a href="/tsqygs-zzryqj1/index.html" target="_blank" title="">浦东新区</a></li> 
+      </ol> 
+     </div> 
+    </div> 
+    <div class="container"> 
+     <div class="row list-content years-box margin-bootm60"> 
+      <div class="col-md-8"> 
+       <div class="Article" id="example"> 
+        <h2 class="no-margin-top"> 
+         <div id="ivs_title" class="Article-title-zw ban-tu">
+           关于执行浦东新区外资研发中心采购设备增值税政策的通知 
+          <i class="dropdown top-ban"> <img src="/ftyp/ban.png"> 
+           <ul class="dropdown-menu"> 
+            <li> <a href="http://www.shanghai.gov.cn/affairs_affairs/6880a2e1d704cc21ef2d3ee6.html" title="关于执行浦东新区外资研发中心采购设备增值税政策的通知">关于执行浦东新区外资研发中心采购设备增值税政策的通知</a> </li>
+            <li> </li>
+            <li> <a href="http://www.shanghai.gov.cn/affairs_affairs/67fcd5e593c2724e19a6a4f4.html" title="浦东新区外资研发中心享受采购设备增值税政策的资格认定">浦东新区外资研发中心享受采购设备增值税政策的资格认定</a> </li>
+            <li> </li>
+           </ul> </i> 
+          <small class="PBtime"> <p style="margin:0px;"> <label> 印发日期：2024-06-17 &nbsp;&nbsp;&nbsp;&nbsp; </label> 
+            <!-- <label id="ivs_date">发布日期：2024-05-17&nbsp;&nbsp;&nbsp;&nbsp;</label> --> <label> 浦商委办发〔2024〕5号 </label> </p> </small> 
+          <div class="zihao"> 
+           <div class="through"> 
+            <span>字号：</span> 
+           </div> 
+           <div class="controls"> 
+            <a href="#" id="large">大</a> 
+            <a href="#" id="medium" class="selected">中</a> 
+            <a href="#" id="small">小</a> 
+           </div> 
+          </div> 
+         </div> </h2> 
+        <!-- 语音播放器 --> 
+        <div id="ivs_player"></div> 
+        <!-- 正文 --> 
+        <div id="xggj" style=""> 
+         <div class="Article_content"> 
+          <!--  --> 
+          <p></p>
+          <div id="ivs_content" class="trout-region-content">
+           <p>各有关单位：</p> 
+           <p>  根据《财政部 科技部 民政部 商务部 税务总局关于继续执行上海市浦东新区有关研发机构适用采购设备增值税政策资格认定事项的通知》（财税〔2023〕32号）、《财政部 商务部 国家税务总局关于研发机构采购设备增值税政策的公告》（财政部 商务部 税务总局公告2023年第41号）有关规定，现就开展浦东新区外资研发中心享受采购设备增值税政策的资格认定工作相关事宜通知如下：</p> 
+           <p><strong>  一、审核部门</strong></p> 
+           <p>  浦东新区范围内的外资研发中心享受采购设备增值税政策资格认定工作由浦东新区商务委员会、浦东新区科技和经济委员会、浦东新区财政局、国家税务总局上海市浦东新区税务局（以下简称审核部门）负责。</p> 
+           <p><strong>  二、申报主体</strong></p> 
+           <p>  包括独立法人的外资研发中心、内设独立部门或分公司所在的外商投资企业，要求申报主体3年以内无严重失信行为。</p> 
+           <p><strong>  三、认定条件</strong></p> 
+           <p>  按照财政部、商务部、国家税务总局2023年第41号公告第二条的规定。</p> 
+           <p>  （一）研发费用标准：作为独立法人的，其投资总额不低于800万美元；作为公司内设部门或分公司的非独立法人的，其研发总投入不低于800万美元。</p> 
+           <p>  （二）专职研究与试验发展人员不低于80人。</p> 
+           <p>  （三）设立以来累计购置的设备原值不低于2000万元。</p> 
+           <p><strong>  四、申报时间</strong></p> 
+           <p>  （一）2024年提交申报材料截止时间为本通知正式发布之日起30天内。</p> 
+           <p>  （二）2025年至2027年，每年提交申报材料时间为1月1日至3月31日。</p> 
+           <p><strong>  五、申报材料</strong></p> 
+           <p>  外资研发中心申请采购国产设备退税资格，应提交以下材料（均加盖企业公章、一式4份）：</p> 
+           <p>  （一）外资研发中心采购国产设备退税资格申请书原件（内容包括：外资研发中心基本情况、研发活动情况、符合申报条件的说明等）；</p> 
+           <p>  （二）外资研发中心采购设备退税资格审核表原件（见附件1）；</p> 
+           <p>  （三）外资研发中心为独立法人的，应提交外商投资企业营业执照复印件；外资研发中心为非独立法人的，应提交其所在外商投资企业的营业执照复印件；</p> 
+           <p>  （四）外资研发中心最近一次的验资报告及上一年度审计报告复印件；外资研发中心为非独立法人的，应提交其所在外商投资企业最近一次验资报告、专门为设立和建设本研发中心而投入的资产清单原件（见附件2）及相关购置发票或合同复印件；</p> 
+           <p>  （五）外资研发中心研发费用支出明细表原件（见附件3）；</p> 
+           <p>  （六）外资研发中心累计购置设备汇总表原件（见附件4）和清单，及相对应的单据复印件，包括：海关进口货物报关单、海关专用缴款书（进口设备提供）、购置发票、购置合同（指已经签订合同且于申报资格认定当年年底前交货的国产及进口设备购置合同）。在所附单据的右上角标注数字编号，该数字编号应与《累计购置设备汇总表》中的设备名称的序号相对应；</p> 
+           <p>  （七）外资研发中心关于已经签订购置国产设备合同且设备将于申报资格认定当年年底前交货的承诺函原件（见附件5）；</p> 
+           <p>  （八）外资研发中心专职研究与试验发展人员名册原件（见附件6）；</p> 
+           <p>  （九）外资研发中心对所有提交材料的真实性和有效性承担法律责任的承诺函原件（见附件7）；</p> 
+           <p>  （十）审核部门要求的其他材料。</p> 
+           <p><strong>  六、申报和审核流程</strong></p> 
+           <p>  （一）外资研发中心在规定时间内提交申报材料至浦东新区行政服务中心（合欢路2号）3楼309室。</p> 
+           <p>  （二）在收到申报材料后，审核部门分别审核材料，并在45个工作日内提出审核意见。对于审核通过的外资研发中心名单，区商务委以公告的形式在“上海浦东”门户网站予以发布，同时将核定结果抄送上海市财政局、上海市税务局，报送上海市商务委员会，并由上海市商务委员会报送商务部。对不符合有关规定的，区商务委根据审核部门的决定出具书面审核意见，并说明理由。</p> 
+           <p><strong>  七、监督和管理</strong></p> 
+           <p>  （一）审核部门对已获得享受采购设备增值税政策资格满两年的研发中心进行资格复审，各外资研发中心应主动申报复审。复审的申报时间、申报材料和审核流程分别参见本通知第三条、第四条、第五条和第六条。复审通过的外资研发中心名单将以公告的形式在“上海浦东”门户网站予以发布。未按时复审或未通过复审的外资研发中心，取消其享受采购设备增值税政策的资格。</p> 
+           <p>  （二）各审核部门在审核认定外资研发中心享受采购设备增值税政策资格的过程中，可到外资研发中心查阅有关资料和了解有关情况，核实申报材料的真实性。</p> 
+           <p>  （三）税务部门将加强对享受采购设备增值税政策的设备的监管。研发机构涉及重大税收违法失信案件，按照《国家税务总局关于发布〈重大税收违法失信案件信息公布办法〉的公告》（2018年第54号）被公布信息的，研发机构应自案件信息公布之日起，停止享受采购国产设备退税政策，并在30日内办理退税备案撤回。研发机构违法失信案件信息停止公布并从公告栏撤出的，自信息撤出之日起，研发机构可重新办理采购国产设备退税备案，其采购的国产设备可继续享受退税政策。未按照规定办理退税备案撤回，并继续申报采购国产设备退税的，依照本通知中监督和管理第四条规定处理。</p> 
+           <p>  （四）研发机构采取假冒采购国产设备退税资格、虚构采购国产设备业务、增值税发票既申报抵扣又申报退税、提供虚假退税申报资料等手段，骗取采购国产设备退税的，主管税务机关应追回已退税款，并依照税收征收管理法的有关规定处理。</p> 
+           <p>  本通知有效期为印发之日起至2027年12月31日，具体从浦东新区外资研发中心取得退税资格的次月1日起实施。</p> 
+           <p>  附件：</p> 
+           <p>  1、外资研发中心采购设备退税资格审核表</p> 
+           <p>  2、非独立法人研发中心研发投入资产清单</p> 
+           <p>  3、外资研发中心研发费用支出明细表</p> 
+           <p>  4、外资研发中心累计购置设备汇总表</p> 
+           <p>  5、外资研发中心关于已经签订购置合同的国产设备将于申报资格认定当年年底前交货的承诺函</p> 
+           <p>  6、外资研发中心专职研究与试验发展人员名册</p> 
+           <p>  7、外资研发中心承诺申报材料真实有效并承担法律责任的承诺函</p> 
+           <p style="text-align: right;">  浦东新区商务委员会</p> 
+           <p style="text-align: right;">  浦东新区科技和经济委员会</p> 
+           <p style="text-align: right;">  浦东新区财政局</p> 
+           <p style="text-align: right;">  国家税务总局上海市浦东新区税务局</p> 
+           <p style="text-align: right;">  2024年5月17日</p>
+          </div>
+          <p></p> 
+         </div> 
+         <h4 class="gaojian">相关附件</h4> 
+         <ul class="uli14 nowrapli gaoj-list"> 
+          <li><a href="/cmsres/6f/6f2a57b49181459b80d6771c51639d32/2e9a6c2248fa2a4f3b613413c566dd8c.pdf" title="附件1外资研发中心采购设备退税资格审核表.pdf" target="_blank" style="white-space:nowrap;">附件1外资研发中心采购设备退税资格审核表.pdf</a></li> 
+          <li><a href="/cmsres/9e/9e9d95d22df546ccbb53f2a4c979e2b6/902fddc51fb6f57bd0a6b3bb83b2cc6f.pdf" title="附件2非独立法人研发中心研发投入资产清单.pdf" target="_blank" style="white-space:nowrap;">附件2非独立法人研发中心研发投入资产清单.pdf</a></li> 
+          <li><a href="/cmsres/78/783f3890eb9147128dbe9df4338a162e/000b885765920f2c0480c41238aaa2ac.pdf" title="附件3（外资研发中心名称）研发费用支出明细表.pdf" target="_blank" style="white-space:nowrap;">附件3（外资研发中心名称）研发费用支出明细表.pdf</a></li> 
+          <li><a href="/cmsres/12/122717c38d7f473d92fe9ee8b33e4135/b2b14fcd145c6d4e07069fdcdfea9786.pdf" title="附件4（外资研发中心名称）累计购置设备汇总表.pdf" target="_blank" style="white-space:nowrap;">附件4（外资研发中心名称）累计购置设备汇总表.pdf</a></li> 
+          <li><a href="/cmsres/9c/9cdd55006bcd4304a5bf49f2e38d5d95/d78d33e7e86a404701c4da059ddefa27.pdf" title="附件5承诺函（国产设备）.pdf" target="_blank" style="white-space:nowrap;">附件5承诺函（国产设备）.pdf</a></li> 
+          <li><a href="/cmsres/e8/e82fa8da6ab54abab9c575098337e64d/c3a4616b6aba8e17624bf7cca7898525.pdf" title="附件6外资研发中心名称专职研究与试验发展人员名册.pdf" target="_blank" style="white-space:nowrap;">附件6外资研发中心名称专职研究与试验发展人员名册.pdf</a></li> 
+          <li><a href="/cmsres/fc/fcf3e42b361c4b80b188b90e491209f4/927ba9deec0ccba2e2cccc0a8264e5a1.pdf" title="附件7承诺函.pdf" target="_blank" style="white-space:nowrap;">附件7承诺函.pdf</a></li> 
+         </ul> 
+         <!--  --> 
+        </div> 
+        <div class="Article-fixed cleafix"> 
+         <div class="through two-fex"> 
+          <span>分享：</span> 
+         </div> 
+         <div class="share" id="share-2" data-bosszone="share"> 
+         </div> 
+         <!-- <ul class="wxWrap01">
+									<script>
+									document.write('<li><a href="https://jd.sh.gov.cn/err_report/article_recomm_form.asp?newstitle='+$URL.encode("关于执行浦东新区外资研发中心采购设备增值税政策的通知")+'" target="_blank" title="推荐">推荐</a></li>');
+									document.write('<li><a href="https://jd.sh.gov.cn/err_report/article_add_form.asp?newstitle='+$URL.encode("关于执行浦东新区外资研发中心采购设备增值税政策的通知")+'" target="_blank" title="纠错">纠错</a></li>');
+									</script>
+									<li><a href="javascript:window.print()">打印</a></li>
+								</ul> --> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-md-4"> 
+       <div style="position: relative;" class="pdf-box"> 
+        <div class="pdf-content"> 
+         <a class="Gover-file0301" href="/cmsres/fc/fc6ad6584ffb4aaaaebd5d338a21acf2/e091121fa3024eb995b2b29b0927c562.pdf" title="f221568f5bbbdb059fd6b5299d238257.pdf" target="_blank"> <img src="/cmsres/42/420329fe32644cd2985fae5c9c00e9c6/48983f5ac0adc8f6220ae68b89983356.png"> <img class="button-img" src="/assets2020/img/file20190301button.png"> </a> 
+        </div> 
+        <div> 
+         <a class="download0301" href="/cmsres/fc/fc6ad6584ffb4aaaaebd5d338a21acf2/e091121fa3024eb995b2b29b0927c562.pdf" title="f221568f5bbbdb059fd6b5299d238257.pdf" target="_blank"></a> 
+        </div> 
+       </div> 
+       <div id="yc" style="width:100%;height:920px;"> 
+        <!--<iframe style="width:100%;height:920px;" scrolling="No" frameborder="0" src="/zwgkyc/index.html"></iframe> --> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script src="/assets2020/js/footer.js"></script> 
+  </div> 
+  <script src="/assets2020/js/ETUI/jquery.min.1.12.4.js"></script> 
+  <script src="/assets2020/js/ETUI/ETUI3.min.js"></script> 
+  <script src="/assets2020/plugin/infinitypush/jquery.ma.infinitypush.js"></script> 
+  <script src="/assets2020/plugin/owl/owl.carousel.min.js"></script> 
+  <script src="/assets2020/plugin/jplayer/jquery.jplayer.js"></script> 
+  <script src="/assets2020/js/scrolltop.js"></script> 
+  <script src="/assets2020/plugin/ImgCrop.js"></script> 
+  <script src="/assets2020/js/main.js"></script> 
+  <script src="/assets2020/js/index.js"></script> 
+  <script src="/assets2020/plugin/share/jquery.share.min.js"></script> 
+  <script src="/assets2020/js/attach.js"></script> 
+  <script>
+jQuery(document).ready(function () {
+	Main.init();
+	 $('.normal-slider').owlCarousel({
+		items: 1,
+		margin: 0,
+		stagePadding: 0,
+		smartSpeed: 1000,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		
+	});
+});
+$('#share-1').share();
+$('#share-2').share();
+</script> 
+  <script>
+$(window).scroll(function(event) {
+	$(this).scrollTop() > 100 ? $(".xaunfu-header").addClass('fixed') : $(".xaunfu-header").removeClass('fixed');
+});
+$(function(){
+					   var clickOdd = true
+					   $('.picker').on("click",function(){
+						 var showInput =  $('.picker input');
+						 var siteId =  $('#siteId');
+						 if(clickOdd){
+							showInput.val('本站');
+							siteId.val('www.shanghai.gov.cn');
+							clickOdd = false
+						 }else{
+							showInput.val('站群');
+							siteId.val('all');
+							clickOdd = true
+						 }
+					   })
+ })
+</script> 
+  <script type="text/javascript">
+    $(function () {
+        helangSearch.init();
+    })
+
+ $(document).ready(function() {
+    $("#small").click(function(event) {
+        event.preventDefault();
+        $(".Article_content p").animate({
+            "font-size": "14px",
+            "line-height": "35px"
+        });
+    });
+    $("#medium").click(function(event) {
+        event.preventDefault();
+        $(".Article_content p").animate({
+            "font-size": "18px",
+            "line-height": "35px"
+        });
+    });
+    $("#large").click(function(event) {
+        event.preventDefault();
+        $(".Article_content p").animate({
+            "font-size": "22px",
+            "line-height": "35px"
+        });
+    });
+    $(".controls a").click(function() {
+        $("a").removeClass("selected");
+        $(this).addClass("selected");
+    });
+});   
+</script> 
+  <script type="text/javascript">
+$(function () {
+            $(".weim").hover(function(){
+                $(".xia-wm").css("display", "block");
+            }, function(){
+                $(".xia-wm").css("display", "none");
+            })
+        })
+$(function(){
+            $(".poster-btn").click(function(){
+                if ($(this).text() == "展开") {
+                    $(this).text("收起");
+                    $(this).siblings(".zcgk-contenting").removeClass("xg").css("height","auto");
+                    $(this).addClass('current-menu').siblings().removeClass('current-menu');
+                }else{
+                    $(this).text("展开");
+                    $(this).siblings(".zcgk-contenting").addClass("xg").css("height","14rem");
+                    $(this).removeClass('current-menu');
+                }
+            });
+        })
+</script> 
+  <script type="text/javascript" src="/assets2020/js/ywlogin.js"></script>  
+ </body>
+</html>
