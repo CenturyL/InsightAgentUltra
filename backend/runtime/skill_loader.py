@@ -31,8 +31,8 @@ GENERIC_SKILL_TOKENS = {
 }
 
 
-def _workspace_root() -> Path:
-    return Path(settings.WORKSPACE_ROOT)
+def _backend_root() -> Path:
+    return Path(settings.BACKEND_ROOT)
 
 
 @dataclass
@@ -106,14 +106,8 @@ def _ensure_str_list(value: Any) -> list[str]:
 
 
 def _skill_dirs() -> list[Path]:
-    root = _workspace_root()
-    backend = Path(settings.BACKEND_ROOT)
-    candidates = [
-        backend / ".claude" / "skills",
-        root / "skills",
-        Path.home() / ".claude" / "skills",
-    ]
-    return [path for path in candidates if path.exists()]
+    skill_dir = _backend_root() / ".claude" / "skills"
+    return [skill_dir] if skill_dir.exists() else []
 
 
 def _iter_skill_files() -> list[Path]:
@@ -192,7 +186,7 @@ def load_skill_body(package: SkillPackage) -> SkillPackage:
 
 
 def skill_prompt_path(package: SkillPackage) -> str:
-    root = _workspace_root()
+    root = _backend_root()
     try:
         return str(package.skill_md_path.relative_to(root))
     except Exception:

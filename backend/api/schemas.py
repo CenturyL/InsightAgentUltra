@@ -24,7 +24,7 @@ class RuntimeSkillAsset(BaseModel):
     """前端可编辑的 Skill 文件。"""
     filename: str = Field(..., description="skill 文件名，如 research.md")
     content: str = Field(..., description="skill 文件内容")
-    source: str = Field(default="project", description="skill 来源：project 或 claude")
+    source: str = Field(default="claude", description="skill 来源")
 
 
 class RuntimeAssetsResponse(BaseModel):

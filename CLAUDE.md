@@ -95,7 +95,7 @@ Frontend → POST /api/v3/chat/agent
 | Retrieval | `backend/retrieval/` | RAG pipeline: chunking, embedding, reranking, citations |
 | Services | `backend/services/` | Agent service (main loop), session service, asset service |
 | Insights | `backend/insights/` | Per-user `{user_id}.md` files combining persona, style, and memory |
-| Skills | `skills/` | Strategy files injected into system prompt (YAML frontmatter + Markdown) |
+| Skills | `backend/.claude/skills/` | Strategy files injected into system prompt (YAML frontmatter + Markdown, Claude-compatible format) |
 
 ### Insight system
 
@@ -122,9 +122,9 @@ V4 merges the old `persona/AGENTS.md` + `persona/SOUL.md` + `memory/MEMORY.md` i
 
 ### Skill system
 
-Skills in `skills/` are YAML-frontmatter + Markdown files (same format as Claude SKILL.md). They are **not** executable plugins — they are structured strategy/guidance text injected into the system prompt when the runtime router activates them. Metadata is loaded first; full text only when a skill is matched.
+All skills live in `backend/.claude/skills/` as YAML-frontmatter + Markdown files (Claude SKILL.md format). They are **not** executable plugins — they are structured strategy/guidance text injected into the system prompt when the runtime router activates them. Metadata is loaded first; full text only when a skill is matched.
 
-The project also keeps MCP configs (`backend/.mcp.json`) and SKILL files (`backend/.claude/skills/`) using Claude-compatible formats. These are **project runtime assets**, not Claude Code configuration. The root `.claude/` directory belongs to Claude Code itself — do not conflate the two.
+MCP config is at `backend/.mcp.json`. These are **project runtime assets**, not Claude Code configuration. The root `.claude/` directory belongs to Claude Code itself — do not conflate the two.
 
 ### Streaming protocol
 

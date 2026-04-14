@@ -11,10 +11,6 @@ def _backend_root() -> Path:
     return Path(settings.BACKEND_ROOT)
 
 
-def _workspace_root() -> Path:
-    return Path(settings.WORKSPACE_ROOT)
-
-
 def _ensure_parent(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -52,15 +48,10 @@ def save_insight(user_id: str, content: str) -> str:
     return _read_text(path)
 
 
-# ── skills ─────────────────────────────────────────────────────────────────
+# ── skills (single source: backend/.claude/skills/) ───────────────────────
 
-def _skill_roots() -> dict[str, Path]:
-    root = _workspace_root()
-    backend = _backend_root()
-    return {
-        "project": root / "skills",
-        "claude": backend / ".claude" / "skills",
-    }
+def _skills_dir() -> Path:
+    return _backend_root() / ".claude" / "skills"
 
 
 def _safe_skill_name(filename: str) -> str:
@@ -78,12 +69,12 @@ def _safe_skill_name(filename: str) -> str:
     return str(path)
 
 
-def _iter_skill_assets(skills_dir: Path) -> list[Path]:
+def _iter_skill_assets(base: Path) -> list[Path]:
     files: list[Path] = []
-    if not skills_dir.exists():
+    if not base.exists():
         return files
-    files.extend(sorted(skills_dir.glob("*/SKILL.md")))
-    files.extend(sorted(skills_dir.glob("*.md")))
+    files.extend(sorted(base.glob("*/SKILL.md")))
+    files.extend(sorted(base.glob("*.md")))
     return files
 
 
@@ -100,20 +91,19 @@ def _prune_empty_dirs(path: Path, stop_at: Path) -> None:
 
 def load_runtime_assets(user_id: str = "") -> dict:
     insight_md = load_insight(user_id)
+    base = _skills_dir()
 
     skills: list[dict[str, str]] = []
-    for source, skills_dir in _skill_roots().items():
-        if not skills_dir.exists():
-            continue
-        for file_path in _iter_skill_assets(skills_dir):
+    if base.exists():
+        for file_path in _iter_skill_assets(base):
             skills.append(
                 {
-                    "filename": str(file_path.relative_to(skills_dir)),
+                    "filename": str(file_path.relative_to(base)),
                     "content": _read_text(file_path),
-                    "source": source,
+                    "source": "claude",
                 }
             )
-    skills.sort(key=lambda item: (item.get("source", ""), item.get("filename", "")))
+    skills.sort(key=lambda item: item.get("filename", ""))
 
     return {
         "insight_md": insight_md,
@@ -129,25 +119,21 @@ def save_runtime_assets(
 ) -> dict:
     save_insight(user_id, insight_md)
 
-    desired_paths: dict[str, set[Path]] = {source: set() for source in _skill_roots()}
-    for skills_dir in _skill_roots().values():
-        skills_dir.mkdir(parents=True, exist_ok=True)
+    base = _skills_dir()
+    base.mkdir(parents=True, exist_ok=True)
 
+    desired_paths: set[Path] = set()
     for skill in skills:
-        source = str(skill.get("source") or "project").strip().lower()
-        if source not in _skill_roots():
-            source = "project"
         filename = _safe_skill_name(skill.get("filename", "untitled.md"))
         content = skill.get("content", "")
-        target = _skill_roots()[source] / filename
+        target = base / filename
         _ensure_parent(target)
         target.write_text(content, encoding="utf-8")
-        desired_paths[source].add(target.resolve())
+        desired_paths.add(target.resolve())
 
-    for source, skills_dir in _skill_roots().items():
-        for existing in _iter_skill_assets(skills_dir):
-            if existing.resolve() not in desired_paths[source]:
-                existing.unlink(missing_ok=True)
-                _prune_empty_dirs(existing, skills_dir)
+    for existing in _iter_skill_assets(base):
+        if existing.resolve() not in desired_paths:
+            existing.unlink(missing_ok=True)
+            _prune_empty_dirs(existing, base)
 
     return load_runtime_assets(user_id)
