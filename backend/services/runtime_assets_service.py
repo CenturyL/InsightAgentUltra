@@ -1,10 +1,14 @@
 from __future__ import annotations
 
-"""运行时资产读写：persona / markdown memory / skills。"""
+"""运行时资产读写：insight.md (per user) / skills。"""
 
 from pathlib import Path
 
 from backend.core.config import settings
+
+
+def _backend_root() -> Path:
+    return Path(settings.BACKEND_ROOT)
 
 
 def _workspace_root() -> Path:
@@ -21,9 +25,38 @@ def _read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+# ── insight.md: per-user, stored in backend/insights/{user_id}.md ──────────
+
+def _insight_path(user_id: str) -> Path:
+    safe_id = user_id.strip() or "_default"
+    return _backend_root() / "insights" / f"{safe_id}.md"
+
+
+def _default_insight() -> str:
+    default_path = _backend_root() / "insights" / "_default.md"
+    return _read_text(default_path)
+
+
+def load_insight(user_id: str) -> str:
+    path = _insight_path(user_id)
+    content = _read_text(path)
+    if not content:
+        content = _default_insight()
+    return content
+
+
+def save_insight(user_id: str, content: str) -> str:
+    path = _insight_path(user_id)
+    _ensure_parent(path)
+    path.write_text(content or "", encoding="utf-8")
+    return _read_text(path)
+
+
+# ── skills ─────────────────────────────────────────────────────────────────
+
 def _skill_roots() -> dict[str, Path]:
     root = _workspace_root()
-    backend = Path(settings.BACKEND_ROOT)
+    backend = _backend_root()
     return {
         "project": root / "skills",
         "claude": backend / ".claude" / "skills",
@@ -63,10 +96,10 @@ def _prune_empty_dirs(path: Path, stop_at: Path) -> None:
         current = current.parent
 
 
-def load_runtime_assets() -> dict:
-    root = _workspace_root()
-    persona_dir = root / "persona"
-    memory_dir = root / "memory"
+# ── unified load / save ────────────────────────────────────────────────────
+
+def load_runtime_assets(user_id: str = "") -> dict:
+    insight_md = load_insight(user_id)
 
     skills: list[dict[str, str]] = []
     for source, skills_dir in _skill_roots().items():
@@ -83,39 +116,23 @@ def load_runtime_assets() -> dict:
     skills.sort(key=lambda item: (item.get("source", ""), item.get("filename", "")))
 
     return {
-        "agents_md": _read_text(persona_dir / "AGENTS.md"),
-        "soul_md": _read_text(persona_dir / "SOUL.md"),
-        "memory_md": _read_text(memory_dir / "MEMORY.md"),
+        "insight_md": insight_md,
         "skills": skills,
     }
 
 
 def save_runtime_assets(
     *,
-    agents_md: str,
-    soul_md: str,
-    memory_md: str,
+    user_id: str = "",
+    insight_md: str,
     skills: list[dict[str, str]],
 ) -> dict:
-    root = _workspace_root()
-    persona_dir = root / "persona"
-    memory_dir = root / "memory"
+    save_insight(user_id, insight_md)
 
-    agents_path = persona_dir / "AGENTS.md"
-    soul_path = persona_dir / "SOUL.md"
-    memory_path = memory_dir / "MEMORY.md"
-
-    _ensure_parent(agents_path)
-    _ensure_parent(soul_path)
-    _ensure_parent(memory_path)
+    desired_paths: dict[str, set[Path]] = {source: set() for source in _skill_roots()}
     for skills_dir in _skill_roots().values():
         skills_dir.mkdir(parents=True, exist_ok=True)
 
-    agents_path.write_text(agents_md or "", encoding="utf-8")
-    soul_path.write_text(soul_md or "", encoding="utf-8")
-    memory_path.write_text(memory_md or "", encoding="utf-8")
-
-    desired_paths: dict[str, set[Path]] = {source: set() for source in _skill_roots()}
     for skill in skills:
         source = str(skill.get("source") or "project").strip().lower()
         if source not in _skill_roots():
@@ -133,4 +150,4 @@ def save_runtime_assets(
                 existing.unlink(missing_ok=True)
                 _prune_empty_dirs(existing, skills_dir)
 
-    return load_runtime_assets()
+    return load_runtime_assets(user_id)

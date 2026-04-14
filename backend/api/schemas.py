@@ -29,17 +29,13 @@ class RuntimeSkillAsset(BaseModel):
 
 class RuntimeAssetsResponse(BaseModel):
     """运行时资产读取结果。"""
-    agents_md: str = Field(default="", description="persona/AGENTS.md 内容")
-    soul_md: str = Field(default="", description="persona/SOUL.md 内容")
-    memory_md: str = Field(default="", description="memory/MEMORY.md 内容")
+    insight_md: str = Field(default="", description="当前用户的 insight.md 内容（persona + style + memory 合一）")
     skills: list[RuntimeSkillAsset] = Field(default_factory=list, description="skills 目录下的 markdown skills")
 
 
 class RuntimeAssetsUpdateRequest(BaseModel):
     """运行时资产更新请求。"""
-    agents_md: str = Field(default="", description="persona/AGENTS.md 新内容")
-    soul_md: str = Field(default="", description="persona/SOUL.md 新内容")
-    memory_md: str = Field(default="", description="memory/MEMORY.md 新内容")
+    insight_md: str = Field(default="", description="insight.md 新内容")
     skills: list[RuntimeSkillAsset] = Field(default_factory=list, description="需要保存的技能文件内容")
 
 

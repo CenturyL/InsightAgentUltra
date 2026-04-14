@@ -66,13 +66,6 @@ npm run dev      # http://127.0.0.1:5173
 npm run build    # production build
 ```
 
-### Tests
-
-```bash
-pytest -q                              # all tests
-pytest test/test_agent_routing.py -q  # single test file
-```
-
 ### Required environment variables
 
 `DEEPSEEK_API_KEY` and `POSTGRES_URL` (with pgvector extension) are required. All config is validated via Pydantic in `backend/core/config.py`.
@@ -101,9 +94,12 @@ Frontend → POST /api/v3/chat/agent
 | Agents | `backend/agents/` | PAE internals: planner, executor, reflection, orchestrator |
 | Retrieval | `backend/retrieval/` | RAG pipeline: chunking, embedding, reranking, citations |
 | Services | `backend/services/` | Agent service (main loop), session service, asset service |
+| Insights | `backend/insights/` | Per-user `{user_id}.md` files combining persona, style, and memory |
 | Skills | `skills/` | Strategy files injected into system prompt (YAML frontmatter + Markdown) |
-| Persona | `persona/` | `AGENTS.md` (system role), `SOUL.md` (tone/style) — editable at runtime |
-| Memory | `memory/` | `MEMORY.md` workspace-level long-term memory template |
+
+### Insight system
+
+V4 merges the old `persona/AGENTS.md` + `persona/SOUL.md` + `memory/MEMORY.md` into a single **per-user** `insight.md` file stored at `backend/insights/{user_id}.md`. The file is loaded when a user confirms their user_id in the frontend. `backend/insights/_default.md` provides the initial template for new users.
 
 ### Execution strategies
 
@@ -121,6 +117,7 @@ Frontend → POST /api/v3/chat/agent
 
 - **Short-term (thread-level)**: LangGraph `MemorySaver` or `PostgresSaver` — scoped to a conversation
 - **Long-term (user-level)**: pgvector + PostgreSQL — persists across sessions
+- **Insight (user-level)**: markdown file per user — persona, style, explicit memory in one place
 - **Conversation compression**: old messages are auto-summarized to prevent token overflow (`runtime/conversation_memory.py`)
 
 ### Skill system
@@ -151,7 +148,7 @@ PostgreSQL with pgvector is required (not optional). Tables are created automati
 | `POST /chat/agent` | Full agent with ReAct + PAE (main endpoint) |
 | `POST /chat/stream` | Direct LLM chat, no agent/tools |
 | `POST /knowledge/upload` | Ingest documents into RAG |
-| `GET/PUT /runtime/assets` | Fetch/save AGENTS.md, SOUL.md, MEMORY.md, skills |
+| `GET/PUT /runtime/assets?user_id=` | Fetch/save per-user insight.md and skills |
 | `GET/PUT /runtime/mcp/config` | MCP server config |
 | `POST /runtime/mcp/reload` | Reinitialize MCP without restart |
 | `POST /sessions/bootstrap` | Get or create user sessions |

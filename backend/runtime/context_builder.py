@@ -77,7 +77,7 @@ async def build_runtime_context(
     )
     skill_effects = compile_skill_effects(activated_skills)
     long_term_memories = search_long_term_memory_text(user_id, query, k=3)
-    markdown_memories = search_markdown_memory_text(query, k=2)
+    markdown_memories = search_markdown_memory_text(query, k=2, user_id=user_id)
     memory_text = format_memory_sections(long_term_memories, markdown_memories)
 
     system_prompt = build_runtime_system_prompt(
@@ -91,6 +91,7 @@ async def build_runtime_context(
         complexity=complexity,
         pae_route_action=route_decision.pae_action,
         pae_route_reason=route_decision.pae_reason,
+        user_id=user_id,
     )
     return RuntimeContext(
         system_prompt=system_prompt,

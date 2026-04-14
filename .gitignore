@@ -31,6 +31,10 @@ backend/.env
 backend/.env.*
 !backend/.env.example
 
+# === Per-user insight files (only track default template) ===
+backend/insights/*.md
+!backend/insights/_default.md
+
 # === Vector stores & local data artifacts ===
 backend/data/chroma_db/
 backend/data/parent_store/

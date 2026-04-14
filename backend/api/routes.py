@@ -138,18 +138,17 @@ async def upload_knowledge(file: UploadFile = File(...)):
 
 
 @router.get("/runtime/assets", response_model=RuntimeAssetsResponse, summary="读取运行时资产")
-async def get_runtime_assets():
-    """读取 persona / markdown memory / skills，供前端编辑。"""
-    return load_runtime_assets()
+async def get_runtime_assets(user_id: str = Query(default="", description="用户ID，加载该用户的 insight.md")):
+    """读取 insight.md / skills，供前端编辑。"""
+    return load_runtime_assets(user_id)
 
 
 @router.put("/runtime/assets", response_model=RuntimeAssetsResponse, summary="更新运行时资产")
-async def update_runtime_assets(request: RuntimeAssetsUpdateRequest):
-    """更新 persona / markdown memory / skills。"""
+async def update_runtime_assets(request: RuntimeAssetsUpdateRequest, user_id: str = Query(default="", description="用户ID")):
+    """更新 insight.md / skills。"""
     return save_runtime_assets(
-        agents_md=request.agents_md,
-        soul_md=request.soul_md,
-        memory_md=request.memory_md,
+        user_id=user_id,
+        insight_md=request.insight_md,
         skills=[skill.model_dump() for skill in request.skills],
     )
 

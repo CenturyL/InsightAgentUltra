@@ -62,9 +62,7 @@ type RuntimeSkillAsset = {
 };
 
 type RuntimeAssets = {
-  agents_md: string;
-  soul_md: string;
-  memory_md: string;
+  insight_md: string;
   skills: RuntimeSkillAsset[];
 };
 
@@ -147,7 +145,7 @@ const PROMPT_PRESETS: PromptPreset[] = [
   },
   {
     label: "测试 PAE",
-    prompt: "请比较这个项目里的 skills/ 和 .claude/skills/ 两类 skill 的区别，按表格输出。",
+    prompt: "请比较这个项目里的 skills/ 和 backend/.claude/skills/ 两类 skill 的区别，按表格输出。",
   },
 ];
 
@@ -379,9 +377,7 @@ export default function App() {
   const [uploading, setUploading] = useState(false);
   const [uploadState, setUploadState] = useState<UploadState>(null);
   const [runtimeAssets, setRuntimeAssets] = useState<RuntimeAssets>({
-    agents_md: "",
-    soul_md: "",
-    memory_md: "",
+    insight_md: "",
     skills: [],
   });
   const [selectedSkillFilename, setSelectedSkillFilename] = useState("");
@@ -448,7 +444,6 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    void loadRuntimeAssets();
     void loadRuntimeMcpConfig();
   }, []);
 
@@ -537,18 +532,17 @@ export default function App() {
     });
   }
 
-  async function loadRuntimeAssets() {
+  async function loadRuntimeAssets(overrideUserId?: string) {
+    const uid = overrideUserId ?? userId.trim();
     setAssetsLoading(true);
     try {
-      const response = await fetch(`${apiBase}/runtime/assets`);
+      const response = await fetch(`${apiBase}/runtime/assets?user_id=${encodeURIComponent(uid)}`);
       if (!response.ok) {
         throw new Error(await response.text());
       }
       const data = (await response.json()) as RuntimeAssets;
       setRuntimeAssets({
-        agents_md: data.agents_md ?? "",
-        soul_md: data.soul_md ?? "",
-        memory_md: data.memory_md ?? "",
+        insight_md: data.insight_md ?? "",
         skills: Array.isArray(data.skills)
           ? data.skills.map((skill) => ({
               filename: skill.filename,
@@ -605,6 +599,8 @@ export default function App() {
       setActiveTraceMessageId(null);
       shouldAutoScrollRef.current = true;
       showToast("已加载历史会话，并创建了新的空会话。");
+      // 用户确认后加载该用户的 insight.md
+      void loadRuntimeAssets(normalized);
     } catch (err) {
       setError(err instanceof Error ? err.message : "历史会话加载失败");
     } finally {
@@ -730,7 +726,7 @@ export default function App() {
     setAssetsSaving(true);
     setError("");
     try {
-      const response = await fetch(`${apiBase}/runtime/assets`, {
+      const response = await fetch(`${apiBase}/runtime/assets?user_id=${encodeURIComponent(userId.trim())}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -742,9 +738,7 @@ export default function App() {
       }
       const data = (await response.json()) as RuntimeAssets;
       setRuntimeAssets({
-        agents_md: data.agents_md ?? "",
-        soul_md: data.soul_md ?? "",
-        memory_md: data.memory_md ?? "",
+        insight_md: data.insight_md ?? "",
         skills: Array.isArray(data.skills)
           ? data.skills.map((skill) => ({
               filename: skill.filename,
@@ -824,7 +818,7 @@ export default function App() {
         skills: Array.from(mergedMap.values()).sort((a, b) => a.filename.localeCompare(b.filename)),
       };
 
-      const response = await fetch(`${apiBase}/runtime/assets`, {
+      const response = await fetch(`${apiBase}/runtime/assets?user_id=${encodeURIComponent(userId.trim())}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -836,9 +830,7 @@ export default function App() {
       }
       const data = (await response.json()) as RuntimeAssets;
       setRuntimeAssets({
-        agents_md: data.agents_md ?? "",
-        soul_md: data.soul_md ?? "",
-        memory_md: data.memory_md ?? "",
+        insight_md: data.insight_md ?? "",
         skills: Array.isArray(data.skills)
           ? data.skills.map((skill) => ({
               filename: skill.filename,
@@ -1121,36 +1113,16 @@ export default function App() {
         </div>
 
         <div className="sidebar-section">
-          <div className="sidebar-title sidebar-title-compact">Persona &amp; MD Memory</div>
+          <div className="sidebar-title sidebar-title-compact">Insight</div>
           <div className="asset-card">
             <label className="field compact">
-              <span>AGENTS.md</span>
+              <span>insight.md</span>
               <textarea
-                rows={4}
+                rows={10}
                 className="runtime-asset-textarea"
-                value={runtimeAssets.agents_md}
-                onChange={(e) => setRuntimeAssets((prev) => ({ ...prev, agents_md: e.target.value }))}
-                placeholder={assetsLoading ? "加载中..." : "AGENTS.md"}
-              />
-            </label>
-            <label className="field compact">
-              <span>SOUL.md</span>
-              <textarea
-                rows={4}
-                className="runtime-asset-textarea"
-                value={runtimeAssets.soul_md}
-                onChange={(e) => setRuntimeAssets((prev) => ({ ...prev, soul_md: e.target.value }))}
-                placeholder={assetsLoading ? "加载中..." : "SOUL.md"}
-              />
-            </label>
-            <label className="field compact">
-              <span>MEMORY.md</span>
-              <textarea
-                rows={5}
-                className="runtime-asset-textarea"
-                value={runtimeAssets.memory_md}
-                onChange={(e) => setRuntimeAssets((prev) => ({ ...prev, memory_md: e.target.value }))}
-                placeholder={assetsLoading ? "加载中..." : "MEMORY.md"}
+                value={runtimeAssets.insight_md}
+                onChange={(e) => setRuntimeAssets((prev) => ({ ...prev, insight_md: e.target.value }))}
+                placeholder={assetsLoading ? "加载中..." : "Persona / Style / Memory — 输入 USERID 确认后加载"}
               />
             </label>
             <button
